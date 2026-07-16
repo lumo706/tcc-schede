@@ -2,7 +2,7 @@
   "schema_version": "1.2",
   "ticker": "UIM9",
   "stamp": {
-    "timestamp_fetch": "2026-07-16T10:17:01+02:00",
+    "timestamp_fetch": "2026-07-16T10:59:12+02:00",
     "data_type": "n/d",
     "lag_stimato_min": 20,
     "usage_layer": "context",
@@ -32,7 +32,7 @@
     "vwap_method": "VWAP typical-price barre 1m UIM9.MI sessione corrente",
     "poc": null,
     "poc_source": null,
-    "poc_method": "volume-profile 50 bin, barre 5m UIM9.MI ultimi 20g",
+    "poc_method": "volume-profile 50 bin, barre 5m UIM9.MI sessione corrente",
     "oi_totals": {
       "call": null,
       "put": null,
@@ -200,8 +200,8 @@
       "options[]:delta",
       "options[]:open_interest"
     ],
-    "checksum": "865b1454bcb347dee091ef750c8d62bedca4efdf22a143948ec6dbf3387f3325",
-    "generated_at": "2026-07-16T10:17:01+02:00",
+    "checksum": "dcf0c498b278ea57d89e5607b488978121af17872beea51e3c28678040d670cf",
+    "generated_at": "2026-07-16T10:59:12+02:00",
     "generator": "TCC scheda_ticker v0.3",
     "last_commit": {
       "author": null,
