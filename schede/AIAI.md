@@ -1,4 +1,4 @@
-# Scheda AIAI — 2026-07-16T10:07:51+02:00
+# Scheda AIAI — 2026-07-16T10:12:54+02:00
 **Dati:** n/d · lag 20m · uso: **context** · lake: **partial (42/252 giorni)**
 **AIAI** (LSEETF, USD) · spot **38.45** · O 38.53 H 38.53 L 38.45 · prior 38.56 · vol 261.0
 **IV None** (rank — (warming_up) / pct — (warming_up)) · HV — (warming_up) · IV-HV +Nonept · vol 261.0 vs avg20 400852 (0.0x) · 52w — (warming_up)–— (warming_up) (spot None% del range)
@@ -21,4 +21,4 @@ Catena `None` · tradingClass `None` · mult `None`
 | 2026-07-15 | 39.56 | 39.56 | 38.47 | 38.56 | 28594.0 | lake |
 | 2026-07-16 | 38.53 | 38.53 | 38.45 | 38.45 | 261.0 | tws · oggi (parziale) |
 
-`sha256:2233419dacd1fe5f…` · TCC scheda_ticker v0.3
+`sha256:db3062c00f742667…` · TCC scheda_ticker v0.3

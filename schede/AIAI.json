@@ -2,7 +2,7 @@
   "schema_version": "1.2",
   "ticker": "AIAI",
   "stamp": {
-    "timestamp_fetch": "2026-07-16T10:07:51+02:00",
+    "timestamp_fetch": "2026-07-16T10:12:54+02:00",
     "data_type": "n/d",
     "lag_stimato_min": 20,
     "usage_layer": "context",
@@ -199,8 +199,8 @@
       "options[]:delta",
       "options[]:open_interest"
     ],
-    "checksum": "2233419dacd1fe5f53e542e3735527e47ef8db376ececbe3c181f60f511349c9",
-    "generated_at": "2026-07-16T10:07:51+02:00",
+    "checksum": "db3062c00f74266776c5800407605d3265853b4e7256b9589f1ada3261940cfb",
+    "generated_at": "2026-07-16T10:12:54+02:00",
     "generator": "TCC scheda_ticker v0.3",
     "last_commit": {
       "author": null,
