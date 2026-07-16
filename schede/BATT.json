@@ -2,7 +2,7 @@
   "schema_version": "1.2",
   "ticker": "BATT",
   "stamp": {
-    "timestamp_fetch": "2026-07-16T11:37:34+02:00",
+    "timestamp_fetch": "2026-07-16T12:44:11+02:00",
     "data_type": "n/d",
     "lag_stimato_min": 20,
     "usage_layer": "context",
@@ -16,9 +16,9 @@
     "spot": 28.035,
     "open": 28.335,
     "high": 28.48,
-    "low": 27.96,
+    "low": 27.922,
     "prior_close": 28.25,
-    "volume": 5448.0,
+    "volume": 7146.0,
     "change_pct": -0.76,
     "iv_underlying": null,
     "hv": 0.309,
@@ -164,9 +164,9 @@
       "date": "2026-07-16",
       "o": 28.335,
       "h": 28.48,
-      "l": 27.96,
+      "l": 27.922,
       "c": 28.035,
-      "v": 5448.0,
+      "v": 7146.0,
       "source": "tws",
       "partial": true
     }
@@ -202,8 +202,8 @@
       "options[]:delta",
       "options[]:open_interest"
     ],
-    "checksum": "531ffe4a19f6b435cb4614c330b5934852e0f2e4dbef2bf0a4bf3bd0ded7a4de",
-    "generated_at": "2026-07-16T11:37:34+02:00",
+    "checksum": "3a9eafdacebed104eb2c226e610088daa904ddbb887ab082b4a4d4fe077b51fd",
+    "generated_at": "2026-07-16T12:44:11+02:00",
     "generator": "TCC scheda_ticker v0.3",
     "last_commit": {
       "author": null,
