@@ -2,7 +2,7 @@
   "schema_version": "1.2",
   "ticker": "UIM9",
   "stamp": {
-    "timestamp_fetch": "2026-07-16T10:03:04+02:00",
+    "timestamp_fetch": "2026-07-16T10:08:08+02:00",
     "data_type": "n/d",
     "lag_stimato_min": 20,
     "usage_layer": "context",
@@ -200,8 +200,8 @@
       "options[]:delta",
       "options[]:open_interest"
     ],
-    "checksum": "87fa84a6cb8913c4437db68c639ef6d5b8794aed0c42b1e2b721665f1c712db4",
-    "generated_at": "2026-07-16T10:03:04+02:00",
+    "checksum": "8653fb9019c3cf0b96464443468d3d55fc18a4ac18c0ad3e1a71adcfa7d7670c",
+    "generated_at": "2026-07-16T10:08:08+02:00",
     "generator": "TCC scheda_ticker v0.3",
     "last_commit": {
       "author": null,

@@ -1,4 +1,4 @@
-# Scheda UIM9 — 2026-07-16T10:03:04+02:00
+# Scheda UIM9 — 2026-07-16T10:08:08+02:00
 **Dati:** n/d · lag 20m · uso: **context** · lake: **ready**
 **UIM9** (IBIS, EUR) · spot **57.44** · O 57.5 H 57.39 L 57.27 · prior 57.44 · vol 73.0
 **IV None** (rank — (missing) / pct — (missing)) · HV 0.101 · IV-HV +Nonept · vol 73.0 vs avg20 13170 (0.01x) · 52w 43.535–78.292 (spot 40% del range)
@@ -21,4 +21,4 @@ Catena `None` · tradingClass `None` · mult `None`
 | 2026-07-14 | 57.12 | 57.44 | 57.03 | 57.25 | 8613.0 | lake |
 | 2026-07-16 | 57.5 | 57.39 | 57.27 | 57.44 | 73.0 | tws · oggi (parziale) |
 
-`sha256:87fa84a6cb8913c4…` · TCC scheda_ticker v0.3
+`sha256:8653fb9019c3cf0b…` · TCC scheda_ticker v0.3

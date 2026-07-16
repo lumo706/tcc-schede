@@ -2,7 +2,7 @@
   "schema_version": "1.2",
   "ticker": "XLKS",
   "stamp": {
-    "timestamp_fetch": "2026-07-16T10:03:11+02:00",
+    "timestamp_fetch": "2026-07-16T10:08:14+02:00",
     "data_type": "n/d",
     "lag_stimato_min": 20,
     "usage_layer": "context",
@@ -200,8 +200,8 @@
       "options[]:delta",
       "options[]:open_interest"
     ],
-    "checksum": "7bbeba286becfbb0176e56ea0fb4f9768639bbc8bcbd1f3d92e4266d76223f93",
-    "generated_at": "2026-07-16T10:03:11+02:00",
+    "checksum": "538d7fee97fcb76fe5e92d85aa05bd90d3483c2b40e72fc599143606b69c2b5a",
+    "generated_at": "2026-07-16T10:08:14+02:00",
     "generator": "TCC scheda_ticker v0.3",
     "last_commit": {
       "author": null,
