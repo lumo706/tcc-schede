@@ -2,7 +2,7 @@
   "schema_version": "1.2",
   "ticker": "IJPA",
   "stamp": {
-    "timestamp_fetch": "2026-07-16T12:44:08+02:00",
+    "timestamp_fetch": "2026-07-16T13:20:28+02:00",
     "data_type": "n/d",
     "lag_stimato_min": 20,
     "usage_layer": "context",
@@ -18,7 +18,7 @@
     "high": 70.0,
     "low": 69.372,
     "prior_close": 70.49,
-    "volume": 14524.0,
+    "volume": 16087.0,
     "change_pct": -1.16,
     "iv_underlying": null,
     "hv": 0.202,
@@ -166,7 +166,7 @@
       "h": 70.0,
       "l": 69.372,
       "c": 69.67,
-      "v": 14524.0,
+      "v": 16087.0,
       "source": "tws",
       "partial": true
     }
@@ -200,8 +200,8 @@
       "options[]:delta",
       "options[]:open_interest"
     ],
-    "checksum": "252ca145d569d5f7996d88e5c30e11a23440fad879707a701b55c198a50f8acb",
-    "generated_at": "2026-07-16T12:44:08+02:00",
+    "checksum": "1b1bfc9e587a2e73070beb6ea48c7fd5f47438ededf8a8c6f3876eec80c7cb97",
+    "generated_at": "2026-07-16T13:20:28+02:00",
     "generator": "TCC scheda_ticker v0.3",
     "last_commit": {
       "author": null,
