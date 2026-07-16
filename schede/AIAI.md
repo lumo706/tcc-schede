@@ -1,7 +1,7 @@
-# Scheda AIAI — 2026-07-16T13:25:44+02:00
+# Scheda AIAI — 2026-07-16T17:20:13+02:00
 **Dati:** n/d · lag 20m · uso: **context** · lake: **partial (42/252 giorni)**
-**AIAI** (LSEETF, USD) · spot **38.21** · O 38.53 H 38.53 L 38.19 · prior 38.56 · vol 33651.0
-**IV None** (rank — (warming_up) / pct — (warming_up)) · HV — (warming_up) · IV-HV +Nonept · vol 33651.0 vs avg20 400852 (0.08x) · 52w — (warming_up)–— (warming_up) (spot None% del range)
+**AIAI** (LSEETF, USD) · spot **37.935** · O 38.53 H 38.53 L 37.5 · prior 38.56 · vol 61144.0
+**IV None** (rank — (warming_up) / pct — (warming_up)) · HV — (warming_up) · IV-HV +Nonept · vol 61144.0 vs avg20 400852 (0.15x) · 52w — (warming_up)–— (warming_up) (spot None% del range)
 **VWAP 8.811** · **POC 8.405** · OI call None put None (P/C None)
 
 Catena `None` · tradingClass `None` · mult `None`
@@ -19,6 +19,6 @@ Catena `None` · tradingClass `None` · mult `None`
 | 2026-07-13 | 10.47 | 11.23 | 9.93 | 10.09 | 147000.0 | lake |
 | 2026-07-14 | 10.26 | 10.37 | 9.677 | 9.83 | 97762.0 | lake |
 | 2026-07-15 | 39.56 | 39.56 | 38.47 | 38.56 | 28594.0 | lake |
-| 2026-07-16 | 38.53 | 38.53 | 38.19 | 38.21 | 33651.0 | tws · oggi (parziale) |
+| 2026-07-16 | 38.53 | 38.53 | 37.5 | 37.935 | 61144.0 | tws · oggi (parziale) |
 
-`sha256:2a9d018c17b2bb18…` · TCC scheda_ticker v0.3
+`sha256:3d45b1f1e681280b…` · TCC scheda_ticker v0.3
