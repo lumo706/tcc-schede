@@ -1,0 +1,111 @@
+{
+  "schema_version": "1.1",
+  "ticker": "XFAB",
+  "stamp": {
+    "timestamp_fetch": "2026-07-15T16:12:54+02:00",
+    "data_type": "n/d",
+    "lag_stimato_min": 20,
+    "usage_layer": "context"
+  },
+  "underlying": {
+    "symbol": "XFAB",
+    "conId": 272103757,
+    "exchange": "SBF",
+    "currency": "EUR",
+    "spot": 8.322,
+    "open": 8.255,
+    "high": 8.425,
+    "low": 8.16,
+    "prior_close": 8.215,
+    "volume": 378158.0,
+    "change_pct": 1.31,
+    "iv_underlying": null,
+    "hv": 0.929,
+    "iv_rank_52w": null,
+    "iv_percentile_52w": null,
+    "week52_high": null,
+    "week52_low": null,
+    "avg_volume_20d": null,
+    "vwap": null,
+    "vwap_source": null,
+    "vwap_method": "VWAP typical-price barre 1m XFAB.MI sessione corrente",
+    "poc": null,
+    "poc_source": null,
+    "poc_method": "volume-profile 50 bin, barre 5m XFAB.MI ultimi 20g",
+    "oi_totals": {
+      "call": null,
+      "put": null,
+      "put_call": null
+    }
+  },
+  "option_params": {
+    "exchange": null,
+    "trading_class": null,
+    "multiplier": null,
+    "currency": "EUR",
+    "source": "reqSecDefOptParams"
+  },
+  "expirations": [],
+  "bs_assumptions": {
+    "r": 0.02,
+    "q": 0.0,
+    "q_source": "0 (nessun dividendo)",
+    "daycount": "ACT/365",
+    "price_used": "mid"
+  },
+  "options": [],
+  "flags": {
+    "published_window": "±25% dallo spot (regolare)"
+  },
+  "ohlcv": [
+    {
+      "date": "2026-07-15",
+      "o": 8.255,
+      "h": 8.425,
+      "l": 8.16,
+      "c": 8.322,
+      "v": 378158.0,
+      "source": "tws",
+      "partial": true
+    }
+  ],
+  "integrity": {
+    "checksum_algo": "sha256",
+    "checksum_fields": [
+      "symbol",
+      "conId",
+      "exchange",
+      "currency",
+      "timestamp_fetch",
+      "data_type",
+      "spot",
+      "open",
+      "high",
+      "low",
+      "prior_close",
+      "volume",
+      "iv_underlying",
+      "hv",
+      "vwap",
+      "poc",
+      "week52_high",
+      "week52_low",
+      "avg_volume_20d",
+      "options[]:expiry",
+      "options[]:strike",
+      "options[]:right",
+      "options[]:bid",
+      "options[]:ask",
+      "options[]:iv",
+      "options[]:delta",
+      "options[]:open_interest"
+    ],
+    "checksum": "a1970414d5f373089429c6048c80a63d5dcda4ead9e0b9aac0bf84b2c71747fc",
+    "generated_at": "2026-07-15T16:12:54+02:00",
+    "generator": "TCC scheda_ticker v0.1",
+    "last_commit": {
+      "author": null,
+      "timestamp": null
+    }
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "schema_version": "1.2",
+  "ticker": "BATT",
+  "stamp": {
+    "timestamp_fetch": "2026-07-16T10:02:53+02:00",
+    "data_type": "n/d",
+    "lag_stimato_min": 20,
+    "usage_layer": "context",
+    "lake_status": "ready"
+  },
+  "underlying": {
+    "symbol": "BATT",
+    "conId": 305180916,
+    "exchange": "AEB",
+    "currency": "EUR",
+    "spot": 28.335,
+    "open": 28.335,
+    "high": 28.48,
+    "low": 28.05,
+    "prior_close": 28.25,
+    "volume": 2646.0,
+    "change_pct": 0.3,
+    "iv_underlying": null,
+    "hv": 0.309,
+    "iv_rank_52w": null,
+    "iv_percentile_52w": null,
+    "week52_high": 35.6,
+    "week52_low": 16.667,
+    "avg_volume_20d": 3036,
+    "vwap": 28.125,
+    "vwap_source": "yahoo",
+    "vwap_method": "VWAP typical-price barre 1m BATT.MI sessione corrente",
+    "poc": 30.926,
+    "poc_source": "yahoo",
+    "poc_method": "volume-profile 50 bin, barre 5m BATT.MI ultimi 20g",
+    "oi_totals": {
+      "call": null,
+      "put": null,
+      "put_call": null
+    }
+  },
+  "data_availability": {
+    "hv": "ok",
+    "iv_rank_52w": "missing",
+    "iv_percentile_52w": "missing",
+    "avg_volume_20d": "ok",
+    "week52_high": "ok",
+    "week52_low": "ok",
+    "vwap": "ok",
+    "poc": "ok",
+    "ohlcv": "ok"
+  },
+  "option_params": {
+    "exchange": null,
+    "trading_class": null,
+    "multiplier": null,
+    "currency": "EUR",
+    "source": "reqSecDefOptParams"
+  },
+  "expirations": [],
+  "bs_assumptions": {
+    "r": 0.02,
+    "q": 0.0,
+    "q_source": "0 (nessun dividendo)",
+    "daycount": "ACT/365",
+    "price_used": "mid"
+  },
+  "options": [],
+  "flags": {
+    "published_window": "ATM±8 strike (per rango, simmetrica)"
+  },
+  "ohlcv": [
+    {
+      "date": "2026-07-02",
+      "o": 30.255,
+      "h": 30.91,
+      "l": 30.118,
+      "c": 30.081,
+      "v": 1463.0,
+      "source": "lake"
+    },
+    {
+      "date": "2026-07-03",
+      "o": 30.393,
+      "h": 30.648,
+      "l": 30.234,
+      "c": 30.535,
+      "v": 1005.0,
+      "source": "lake"
+    },
+    {
+      "date": "2026-07-06",
+      "o": 30.181,
+      "h": 30.495,
+      "l": 30.067,
+      "c": 30.466,
+      "v": 6327.0,
+      "source": "lake"
+    },
+    {
+      "date": "2026-07-07",
+      "o": 29.723,
+      "h": 29.834,
+      "l": 28.848,
+      "c": 28.863,
+      "v": 2983.0,
+      "source": "lake"
+    },
+    {
+      "date": "2026-07-08",
+      "o": 28.445,
+      "h": 28.583,
+      "l": 27.88,
+      "c": 27.985,
+      "v": 8349.0,
+      "source": "lake"
+    },
+    {
+      "date": "2026-07-09",
+      "o": 28.519,
+      "h": 29.017,
+      "l": 28.38,
+      "c": 28.773,
+      "v": 2535.0,
+      "source": "lake"
+    },
+    {
+      "date": "2026-07-10",
+      "o": 28.861,
+      "h": 28.995,
+      "l": 28.662,
+      "c": 28.832,
+      "v": 1749.0,
+      "source": "lake"
+    },
+    {
+      "date": "2026-07-13",
+      "o": 28.045,
+      "h": 28.364,
+      "l": 27.92,
+      "c": 28.258,
+      "v": 3487.0,
+      "source": "lake"
+    },
+    {
+      "date": "2026-07-14",
+      "o": 28.034,
+      "h": 28.883,
+      "l": 27.99,
+      "c": 28.571,
+      "v": 3082.0,
+      "source": "lake"
+    },
+    {
+      "date": "2026-07-15",
+      "o": 28.594,
+      "h": 28.83,
+      "l": 28.093,
+      "c": 28.22,
+      "v": 1709.0,
+      "source": "lake"
+    },
+    {
+      "date": "2026-07-16",
+      "o": 28.335,
+      "h": 28.48,
+      "l": 28.05,
+      "c": 28.335,
+      "v": 2646.0,
+      "source": "tws",
+      "partial": true
+    }
+  ],
+  "integrity": {
+    "checksum_algo": "sha256",
+    "checksum_fields": [
+      "symbol",
+      "conId",
+      "exchange",
+      "currency",
+      "timestamp_fetch",
+      "data_type",
+      "spot",
+      "open",
+      "high",
+      "low",
+      "prior_close",
+      "volume",
+      "iv_underlying",
+      "hv",
+      "vwap",
+      "poc",
+      "week52_high",
+      "week52_low",
+      "avg_volume_20d",
+      "options[]:expiry",
+      "options[]:strike",
+      "options[]:right",
+      "options[]:bid",
+      "options[]:ask",
+      "options[]:iv",
+      "options[]:delta",
+      "options[]:open_interest"
+    ],
+    "checksum": "a4b8001c1a9f9b6e5474676cfeff51e3c09ed80123cfdf9264e3ea18084bde19",
+    "generated_at": "2026-07-16T10:02:53+02:00",
+    "generator": "TCC scheda_ticker v0.3",
+    "last_commit": {
+      "author": null,
+      "timestamp": null
+    }
+  }
+}
