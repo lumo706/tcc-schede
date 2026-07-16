@@ -2,7 +2,7 @@
   "schema_version": "1.2",
   "ticker": "IJPA",
   "stamp": {
-    "timestamp_fetch": "2026-07-16T10:58:57+02:00",
+    "timestamp_fetch": "2026-07-16T11:37:31+02:00",
     "data_type": "n/d",
     "lag_stimato_min": 20,
     "usage_layer": "context",
@@ -13,13 +13,13 @@
     "conId": 80268543,
     "exchange": "AEB",
     "currency": "EUR",
-    "spot": 69.614,
+    "spot": 69.782,
     "open": 70.0,
     "high": 70.0,
     "low": 69.372,
     "prior_close": 70.49,
-    "volume": 8457.0,
-    "change_pct": -1.24,
+    "volume": 8628.0,
+    "change_pct": -1.0,
     "iv_underlying": null,
     "hv": 0.202,
     "iv_rank_52w": null,
@@ -165,8 +165,8 @@
       "o": 70.0,
       "h": 70.0,
       "l": 69.372,
-      "c": 69.614,
-      "v": 8457.0,
+      "c": 69.782,
+      "v": 8628.0,
       "source": "tws",
       "partial": true
     }
@@ -200,8 +200,8 @@
       "options[]:delta",
       "options[]:open_interest"
     ],
-    "checksum": "78dfd731ab49ce0f51e9126aa60e4acfdf9ae24b84aad55173375f2e8fc33235",
-    "generated_at": "2026-07-16T10:58:57+02:00",
+    "checksum": "20469b8b13280b9f057193a139061617f1af15a2f558c1701bcc2d60fb58eeb7",
+    "generated_at": "2026-07-16T11:37:31+02:00",
     "generator": "TCC scheda_ticker v0.3",
     "last_commit": {
       "author": null,
