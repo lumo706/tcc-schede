@@ -2,7 +2,7 @@
   "schema_version": "1.2",
   "ticker": "ECAR",
   "stamp": {
-    "timestamp_fetch": "2026-07-17T09:31:05+02:00",
+    "timestamp_fetch": "2026-07-17T13:26:01+02:00",
     "data_type": "n/d",
     "lag_stimato_min": 20,
     "usage_layer": "context",
@@ -16,9 +16,9 @@
     "spot": 12.484,
     "open": 12.522,
     "high": 12.546,
-    "low": 12.484,
+    "low": 12.386,
     "prior_close": 12.93,
-    "volume": 2631.0,
+    "volume": 17541.0,
     "change_pct": -3.45,
     "iv_underlying": null,
     "hv": 0.324,
@@ -164,9 +164,9 @@
       "date": "2026-07-17",
       "o": 12.522,
       "h": 12.546,
-      "l": 12.484,
+      "l": 12.386,
       "c": 12.484,
-      "v": 2631.0,
+      "v": 17541.0,
       "source": "tws",
       "partial": true
     }
@@ -200,8 +200,8 @@
       "options[]:delta",
       "options[]:open_interest"
     ],
-    "checksum": "d1a202e8c4f16c6cdfa435a926534154648a7410735caeb487d23459de6bcfb4",
-    "generated_at": "2026-07-17T09:31:05+02:00",
+    "checksum": "60a86913061e4c248a144ef83322695dac85e986229c1591bbfa16014ab71a46",
+    "generated_at": "2026-07-17T13:26:01+02:00",
     "generator": "TCC scheda_ticker v0.3",
     "last_commit": {
       "author": null,
