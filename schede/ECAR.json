@@ -2,7 +2,7 @@
   "schema_version": "1.2",
   "ticker": "ECAR",
   "stamp": {
-    "timestamp_fetch": "2026-07-16T17:20:16+02:00",
+    "timestamp_fetch": "2026-07-17T09:31:05+02:00",
     "data_type": "n/d",
     "lag_stimato_min": 20,
     "usage_layer": "context",
@@ -13,20 +13,20 @@
     "conId": 354802214,
     "exchange": "LSEETF",
     "currency": "USD",
-    "spot": 12.878,
-    "open": 13.108,
-    "high": 13.146,
-    "low": 12.824,
-    "prior_close": 13.091,
-    "volume": 103032.0,
-    "change_pct": -1.63,
+    "spot": 12.484,
+    "open": 12.522,
+    "high": 12.546,
+    "low": 12.484,
+    "prior_close": 12.93,
+    "volume": 2631.0,
+    "change_pct": -3.45,
     "iv_underlying": null,
-    "hv": 0.326,
+    "hv": 0.324,
     "iv_rank_52w": null,
     "iv_percentile_52w": null,
     "week52_high": 13.314,
     "week52_low": 6.993,
-    "avg_volume_20d": 29932,
+    "avg_volume_20d": 33737,
     "vwap": null,
     "vwap_source": null,
     "vwap_method": "VWAP typical-price barre 1m ECAR sessione corrente",
@@ -70,15 +70,6 @@
     "published_window": "ATM±8 strike (per rango, simmetrica)"
   },
   "ohlcv": [
-    {
-      "date": "2026-07-02",
-      "o": 11.852,
-      "h": 12.046,
-      "l": 11.75,
-      "c": 11.818,
-      "v": 22012.0,
-      "source": "lake"
-    },
     {
       "date": "2026-07-03",
       "o": 11.886,
@@ -165,8 +156,17 @@
       "o": 13.108,
       "h": 13.146,
       "l": 12.824,
-      "c": 12.878,
-      "v": 103032.0,
+      "c": 12.93,
+      "v": 111022.0,
+      "source": "lake"
+    },
+    {
+      "date": "2026-07-17",
+      "o": 12.522,
+      "h": 12.546,
+      "l": 12.484,
+      "c": 12.484,
+      "v": 2631.0,
       "source": "tws",
       "partial": true
     }
@@ -200,8 +200,8 @@
       "options[]:delta",
       "options[]:open_interest"
     ],
-    "checksum": "6c32d719d8d7eecd96c49987582ff3a03441081927c511ec1af2c63c91b2b807",
-    "generated_at": "2026-07-16T17:20:16+02:00",
+    "checksum": "d1a202e8c4f16c6cdfa435a926534154648a7410735caeb487d23459de6bcfb4",
+    "generated_at": "2026-07-17T09:31:05+02:00",
     "generator": "TCC scheda_ticker v0.3",
     "last_commit": {
       "author": null,
