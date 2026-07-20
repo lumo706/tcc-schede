@@ -1,25 +1,22 @@
-# Scheda BTE — 2026-07-20T18:46:12+02:00
-**Dati:** 🟢 live · lag 0m · uso: **trigger** · lake: **ready**
-**BTE** (NYSE, USD) · spot **4.21** · O 4.16 H 4.235 L 4.12 · prior 4.18 · vol 58692.0
-**IV 0.965** (rank 28.5 / pct 92.4) · HV 0.429 · IV-HV +53.6pt · vol 58692.0 vs avg20 16245710 (0.0x) · 52w 1.82–5.36 (spot 68% del range)
-**VWAP 4.184** · **POC 4.166** · OI call 13014.0 put 319.0 (P/C 0.025)
+# Scheda BTE — 2026-07-20T21:31:19+02:00
+**Dati:** 🟡 frozen · lag 5m · uso: **context** · lake: **ready**
+**BTE** (NYSE, USD) · spot **4.215** · O 4.16 H 4.25 L 4.12 · prior 4.18 · vol 95498.0
+**IV 0.667** (rank 13.1 / pct 84.9) · HV 0.429 · IV-HV +23.8pt · vol 95498.0 vs avg20 16245710 (0.01x) · 52w 1.82–5.36 (spot 68% del range)
+**VWAP 4.2** · **POC 4.216** · OI call 13014.0 put 319.0 (P/C 0.025)
 
 Catena `MERCURY` · tradingClass `BTE` · mult `100`
 
 | scad | strike | tipo | bid | ask | mid | IV | IV(bs) | Δ | Γ | vega | theta | OI | vol | ⚠ |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 20260821 | 2.5 | C | None | None | 1.713 | 0.607 | None | 0.998 | 0.005 | 0.0 | -0.0 | None | None |  |
-| 20260821 | 2.5 | P | None | 0.75 | None | 0.607 | None | -0.001 | 0.005 | 0.0 | -0.0 | 0.0 | 0.0 |  |
-| 20260821 | 5 | C | None | 1.05 | None | 0.548 | None | 0.171 | 0.365 | 0.003 | -0.003 | 425.0 | 3.0 |  |
-| 20260821 | 5 | P | None | None | 0.833 | 0.548 | None | -0.836 | 0.365 | 0.003 | -0.002 | None | None |  |
-| 20260821 | 7.5 | C | None | 0.15 | None | 0.682 | None | 0.003 | 0.01 | 0.0 | -0.0 | 4.0 | 0.0 |  |
-| 20260821 | 7.5 | P | None | None | 3.271 | 0.682 | None | -0.996 | 0.01 | 0.0 | 0.001 | None | None |  |
-| 20260918 | 2.5 | C | None | None | 1.722 | 0.643 | None | 0.982 | 0.036 | 0.001 | -0.0 | None | None |  |
-| 20260918 | 2.5 | P | None | 0.75 | None | None | None | None | None | None | None | 0.0 | 0.0 |  |
-| 20260918 | 5 | C | 0.05 | 0.75 | 0.4 | None | None | 0.41 | 0.232 | 0.007 | -0.006 | 0.0 | 0.0 |  |
-| 20260918 | 5 | P | None | None | 0.951 | 0.643 | None | -0.697 | 0.319 | 0.006 | -0.003 | None | None |  |
-| 20260918 | 7.5 | C | None | 0.05 | None | 0.643 | None | 0.019 | 0.042 | 0.001 | -0.0 | 0.0 | 0.0 |  |
-| 20260918 | 7.5 | P | None | None | 3.259 | 0.643 | None | -0.979 | 0.042 | 0.001 | 0.0 | None | None |  |
+| 20260821 | 2.5 | C | None | None | 1.718 | 0.41 | None | 0.999 | 0.0 | 0.0 | -0.0 | None | None |  |
+| 20260821 | 2.5 | P | None | 0.75 | None | None | None | None | None | None | None | 0.0 | 0.0 |  |
+| 20260821 | 5 | C | None | 1.05 | None | 0.41 | None | 0.093 | 0.318 | 0.002 | -0.001 | 425.0 | 3.0 |  |
+| 20260821 | 5 | P | None | None | 0.793 | 0.41 | None | -0.91 | 0.318 | 0.002 | -0.001 | None | None |  |
+| 20260821 | 7.5 | C | None | 0.05 | None | None | None | None | None | None | None | 4.0 | 0.0 |  |
+| 20260821 | 7.5 | P | None | None | 3.265 | 0.41 | None | -0.999 | 0.0 | 0.0 | 0.001 | None | None |  |
+| 20260918 | 2.5 | P | None | 0.1 | None | None | None | None | None | None | None | 0.0 | 0.0 |  |
+| 20260918 | 5 | C | None | None | None | None | None | None | None | None | None | 0.0 | None |  |
+| 20260918 | 7.5 | C | None | None | None | None | None | None | None | None | None | 0.0 | None |  |
 
 **Ultime candele daily**
 | data | O | H | L | C | volume | src |
@@ -31,6 +28,6 @@ Catena `MERCURY` · tradingClass `BTE` · mult `100`
 | 2026-07-15 | 4.3 | 4.3 | 4.01 | 4.134 | 196837.0 | lake |
 | 2026-07-16 | 4.252 | 4.252 | 4.07 | 4.1 | 173665.0 | lake |
 | 2026-07-17 | 4.19 | 4.225 | 4.12 | 4.18 | 232164.0 | lake |
-| 2026-07-20 | 4.16 | 4.235 | 4.12 | 4.21 | 58692.0 | tws · oggi (parziale) |
+| 2026-07-20 | 4.16 | 4.25 | 4.12 | 4.215 | 95498.0 | tws · oggi (parziale) |
 
-`sha256:39bf1af8b027c7a4…` · TCC scheda_ticker v0.3
+`sha256:2cd5e02447f7cb6e…` · TCC scheda_ticker v0.3
