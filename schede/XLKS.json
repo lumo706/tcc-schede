@@ -2,7 +2,7 @@
   "schema_version": "1.2",
   "ticker": "XLKS",
   "stamp": {
-    "timestamp_fetch": "2026-07-17T17:20:14+02:00",
+    "timestamp_fetch": "2026-07-20T10:30:17+02:00",
     "data_type": "n/d",
     "lag_stimato_min": 20,
     "usage_layer": "context",
@@ -13,20 +13,20 @@
     "conId": 78999737,
     "exchange": "LSEETF",
     "currency": "USD",
-    "spot": 992.5,
-    "open": 992.7,
-    "high": 999.4,
-    "low": 979.9,
-    "prior_close": 1011.0,
-    "volume": 1753.0,
-    "change_pct": -1.83,
+    "spot": 1003.8,
+    "open": 999.1,
+    "high": 1003.8,
+    "low": 999.1,
+    "prior_close": 995.4,
+    "volume": 427.0,
+    "change_pct": 0.84,
     "iv_underlying": null,
-    "hv": 0.256,
+    "hv": 0.26,
     "iv_rank_52w": null,
     "iv_percentile_52w": null,
     "week52_high": 1112.8,
     "week52_low": 752.7,
-    "avg_volume_20d": 1677,
+    "avg_volume_20d": 1746,
     "vwap": null,
     "vwap_source": null,
     "vwap_method": "VWAP typical-price barre 1m XLKS sessione corrente",
@@ -70,15 +70,6 @@
     "published_window": "ATM±8 strike (per rango, simmetrica)"
   },
   "ohlcv": [
-    {
-      "date": "2026-07-03",
-      "o": 1013.8,
-      "h": 1016.2,
-      "l": 1012.6,
-      "c": 1014.6,
-      "v": 2378.0,
-      "source": "lake"
-    },
     {
       "date": "2026-07-06",
       "o": 1010.8,
@@ -165,8 +156,17 @@
       "o": 992.7,
       "h": 999.4,
       "l": 979.9,
-      "c": 992.5,
-      "v": 1753.0,
+      "c": 995.4,
+      "v": 1873.0,
+      "source": "lake"
+    },
+    {
+      "date": "2026-07-20",
+      "o": 999.1,
+      "h": 1003.8,
+      "l": 999.1,
+      "c": 1003.8,
+      "v": 427.0,
       "source": "tws",
       "partial": true
     }
@@ -200,8 +200,8 @@
       "options[]:delta",
       "options[]:open_interest"
     ],
-    "checksum": "7d04f2c764039a3b437f449b4bc003c8dbb552004afeb602a3c22712afacc4b2",
-    "generated_at": "2026-07-17T17:20:14+02:00",
+    "checksum": "437bf5d0de0581d9e77c4465c540bb4b3cb9ffe67660c0faf2eaaf37aa2ec989",
+    "generated_at": "2026-07-20T10:30:17+02:00",
     "generator": "TCC scheda_ticker v0.3",
     "last_commit": {
       "author": null,

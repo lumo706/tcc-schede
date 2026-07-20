@@ -2,7 +2,7 @@
   "schema_version": "1.2",
   "ticker": "IJPA",
   "stamp": {
-    "timestamp_fetch": "2026-07-17T17:10:45+02:00",
+    "timestamp_fetch": "2026-07-20T10:29:50+02:00",
     "data_type": "n/d",
     "lag_stimato_min": 20,
     "usage_layer": "context",
@@ -13,20 +13,20 @@
     "conId": 80268543,
     "exchange": "AEB",
     "currency": "EUR",
-    "spot": 67.99,
-    "open": 67.242,
-    "high": 68.24,
-    "low": 67.0,
-    "prior_close": 69.84,
-    "volume": 67461.0,
-    "change_pct": -2.65,
+    "spot": 68.67,
+    "open": 68.096,
+    "high": 68.88,
+    "low": 68.096,
+    "prior_close": 68.08,
+    "volume": 33860.0,
+    "change_pct": 0.87,
     "iv_underlying": null,
-    "hv": 0.204,
+    "hv": 0.224,
     "iv_rank_52w": null,
     "iv_percentile_52w": null,
     "week52_high": 72.85,
     "week52_low": 51.435,
-    "avg_volume_20d": 12441,
+    "avg_volume_20d": 13037,
     "vwap": null,
     "vwap_source": null,
     "vwap_method": "VWAP typical-price barre 1m IJPA.MI sessione corrente",
@@ -70,15 +70,6 @@
     "published_window": "ATM±8 strike (per rango, simmetrica)"
   },
   "ohlcv": [
-    {
-      "date": "2026-07-03",
-      "o": 71.39,
-      "h": 71.41,
-      "l": 71.17,
-      "c": 71.37,
-      "v": 5410.0,
-      "source": "lake"
-    },
     {
       "date": "2026-07-06",
       "o": 71.61,
@@ -162,11 +153,20 @@
     },
     {
       "date": "2026-07-17",
-      "o": 67.242,
-      "h": 68.24,
-      "l": 67.0,
-      "c": 67.99,
-      "v": 67461.0,
+      "o": 67.65,
+      "h": 68.15,
+      "l": 67.44,
+      "c": 68.08,
+      "v": 19484.0,
+      "source": "lake"
+    },
+    {
+      "date": "2026-07-20",
+      "o": 68.096,
+      "h": 68.88,
+      "l": 68.096,
+      "c": 68.67,
+      "v": 33860.0,
       "source": "tws",
       "partial": true
     }
@@ -200,8 +200,8 @@
       "options[]:delta",
       "options[]:open_interest"
     ],
-    "checksum": "5f297156fb67f880a59116bde4d9c55cd6c045cf0e972c31e4c1150d2621eb89",
-    "generated_at": "2026-07-17T17:10:45+02:00",
+    "checksum": "a16033bbe3565173d439315edf1cc72c85560a9bccd7f4ee9374a83885df6b78",
+    "generated_at": "2026-07-20T10:29:50+02:00",
     "generator": "TCC scheda_ticker v0.3",
     "last_commit": {
       "author": null,
