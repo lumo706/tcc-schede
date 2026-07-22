@@ -2,7 +2,7 @@
   "schema_version": "1.2",
   "ticker": "BATT",
   "stamp": {
-    "timestamp_fetch": "2026-07-22T09:31:15+02:00",
+    "timestamp_fetch": "2026-07-22T13:20:21+02:00",
     "data_type": "n/d",
     "lag_stimato_min": 20,
     "usage_layer": "context",
@@ -13,13 +13,13 @@
     "conId": 305180916,
     "exchange": "AEB",
     "currency": "EUR",
-    "spot": 27.395,
+    "spot": 27.37,
     "open": 27.57,
-    "high": 27.57,
-    "low": 27.325,
+    "high": 27.599,
+    "low": 27.298,
     "prior_close": 27.51,
-    "volume": 3387.0,
-    "change_pct": -0.42,
+    "volume": 13042.0,
+    "change_pct": -0.51,
     "iv_underlying": null,
     "hv": 0.308,
     "iv_rank_52w": null,
@@ -163,10 +163,10 @@
     {
       "date": "2026-07-22",
       "o": 27.57,
-      "h": 27.57,
-      "l": 27.325,
-      "c": 27.395,
-      "v": 3387.0,
+      "h": 27.599,
+      "l": 27.298,
+      "c": 27.37,
+      "v": 13042.0,
       "source": "tws",
       "partial": true
     }
@@ -202,8 +202,8 @@
       "options[]:delta",
       "options[]:open_interest"
     ],
-    "checksum": "9ac978cee7db15eb9f6e9c5b55b10c9d460470f79be0cdcaefd1f162f3df2971",
-    "generated_at": "2026-07-22T09:31:15+02:00",
+    "checksum": "8f691156b6fd6b53b4c4179863018bb22355b985ed5611cbc0f79f4f43b07dab",
+    "generated_at": "2026-07-22T13:20:21+02:00",
     "generator": "TCC scheda_ticker v0.3",
     "last_commit": {
       "author": null,
