@@ -2,7 +2,7 @@
   "schema_version": "1.2",
   "ticker": "AIAI",
   "stamp": {
-    "timestamp_fetch": "2026-07-22T09:31:05+02:00",
+    "timestamp_fetch": "2026-07-22T13:25:36+02:00",
     "data_type": "n/d",
     "lag_stimato_min": 20,
     "usage_layer": "context",
@@ -13,13 +13,13 @@
     "conId": 373511733,
     "exchange": "LSEETF",
     "currency": "USD",
-    "spot": 37.75,
+    "spot": 37.885,
     "open": 37.815,
-    "high": 37.815,
-    "low": 37.745,
+    "high": 37.935,
+    "low": 37.7,
     "prior_close": 38.02,
-    "volume": 3979.0,
-    "change_pct": -0.71,
+    "volume": 36408.0,
+    "change_pct": -0.36,
     "iv_underlying": null,
     "hv": null,
     "iv_rank_52w": null,
@@ -163,10 +163,10 @@
     {
       "date": "2026-07-22",
       "o": 37.815,
-      "h": 37.815,
-      "l": 37.745,
-      "c": 37.75,
-      "v": 3979.0,
+      "h": 37.935,
+      "l": 37.7,
+      "c": 37.885,
+      "v": 36408.0,
       "source": "tws",
       "partial": true
     }
@@ -199,8 +199,8 @@
       "options[]:delta",
       "options[]:open_interest"
     ],
-    "checksum": "859034ddd60c942b3d662a2e8608d2a21e50b5d69f5c733878debab1f6f428c6",
-    "generated_at": "2026-07-22T09:31:05+02:00",
+    "checksum": "1567d12085bf81a3e1be08c315b774b5f0912ad2d70fe18b6bc05f8d4a8825fe",
+    "generated_at": "2026-07-22T13:25:36+02:00",
     "generator": "TCC scheda_ticker v0.3",
     "last_commit": {
       "author": null,
