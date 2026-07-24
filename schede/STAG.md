@@ -1,37 +1,37 @@
-# Scheda STAG — 2026-07-22T21:31:43+02:00
+# Scheda STAG — 2026-07-24T16:02:37+02:00
 **Dati:** 🟡 delayed (15-20m) · lag 20m · uso: **context** · lake: **ready**
-**STAG** (NYSE, USD) · spot **41.3** · O 41.99 H 41.99 L 41.27 · prior 41.77 · vol 7022.0
-**IV 0.183** (rank 11.6 / pct 7.6) · HV 0.198 · IV-HV -1.5pt · vol 7022.0 vs avg20 1207288 (0.01x) · 52w 33.72–42.6 (spot 85% del range)
-**VWAP 41.467** · **POC 41.472** · OI call 2226.0 put 798.0 (P/C 0.358)
+**STAG** (NYSE, USD) · spot **40.98** · O 40.82 H 41.01 L 40.75 · prior 40.5 · vol 2037.0
+**IV 0.194** (rank 18.9 / pct 21.9) · HV 0.194 · IV-HV +0.0pt · vol 2037.0 vs avg20 1207288 (0.0x) · 52w 33.72–42.6 (spot 82% del range)
+**VWAP 40.874** · **POC 40.959** · OI call 2224.0 put 805.0 (P/C 0.362)
 
 Catena `BOX` · tradingClass `STAG` · mult `100`
 
 | scad | strike | tipo | bid | ask | mid | IV | IV(bs) | Δ | Γ | vega | theta | OI | vol | ⚠ |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 20260821 | 20 | P | None | 0.2 | None | None | None | None | None | None | None | 0.0 | 0.0 |  |
-| 20260821 | 25 | P | None | 0.3 | None | None | None | None | None | None | None | 0.0 | 0.0 |  |
-| 20260821 | 35 | P | None | 0.35 | None | None | None | None | None | None | None | 41.0 | 0.0 |  |
-| 20260821 | 40 | P | 0.15 | 0.75 | 0.45 | None | None | -0.284 | 0.137 | 0.04 | -0.014 | 30.0 | 0.0 |  |
-| 20260821 | 45 | C | None | 0.2 | None | None | None | 0.087 | 0.062 | 0.018 | -0.007 | 480.0 | 6.0 |  |
-| 20260821 | 55 | C | None | 1.1 | None | None | None | None | None | None | None | 0.0 | 0.0 |  |
-| 20260918 | 20 | C | None | None | 21.183 | 0.369 | None | 0.994 | 0.0 | 0.0 | 0.002 | None | None |  |
-| 20260918 | 20 | P | None | 0.3 | None | None | None | None | None | None | None | 0.0 | 0.0 |  |
-| 20260918 | 22.5 | C | None | None | 18.699 | 0.369 | None | 0.994 | 0.0 | 0.0 | 0.002 | None | None |  |
-| 20260918 | 22.5 | P | None | None | 0.0 | 0.369 | None | -0.0 | 0.0 | 0.0 | -0.0 | None | None |  |
-| 20260918 | 25 | C | None | None | 16.215 | 0.369 | None | 0.994 | 0.0 | 0.0 | 0.002 | None | None |  |
-| 20260918 | 25 | P | None | 2.2 | None | None | None | None | None | None | None | 0.0 | 0.0 |  |
-| 20260918 | 30 | C | None | None | 11.271 | 0.369 | None | 0.983 | 0.005 | 0.005 | -0.001 | None | None |  |
-| 20260918 | 30 | P | None | None | 0.025 | 0.369 | None | -0.012 | 0.005 | 0.005 | -0.002 | None | None |  |
-| 20260918 | 35 | C | None | None | 6.627 | 0.369 | None | 0.882 | 0.032 | 0.031 | -0.01 | None | None |  |
-| 20260918 | 35 | P | 0.15 | 0.55 | 0.35 | 0.369 | 0.369 | -0.112 | 0.032 | 0.031 | -0.01 | 127.0 | 0.0 |  |
-| 20260918 | 40 | C | None | None | 1.983 | 0.191 | None | 0.675 | 0.114 | 0.058 | -0.01 | None | None |  |
-| 20260918 | 40 | P | 0.4 | 0.95 | 0.675 | 0.191 | 0.191 | -0.319 | 0.114 | 0.058 | -0.01 | 10.0 | 0.0 |  |
-| 20260918 | 45 | C | 0.15 | 0.65 | 0.4 | 0.238 | 0.238 | 0.194 | 0.07 | 0.045 | -0.009 | 143.0 | 0.0 |  |
-| 20260918 | 45 | P | None | None | 4.061 | 0.238 | None | -0.8 | 0.07 | 0.045 | -0.009 | None | None |  |
-| 20260918 | 50 | C | None | None | 0.034 | 0.238 | None | 0.024 | 0.014 | 0.009 | -0.002 | None | None |  |
-| 20260918 | 50 | P | None | None | 8.664 | 0.238 | None | -0.97 | 0.014 | 0.009 | -0.001 | None | None |  |
+| 20260821 | 20 | C | None | None | 20.924 | 0.539 | None | 0.997 | 0.0 | 0.0 | 0.002 | None | None |  |
+| 20260821 | 20 | P | None | 0.75 | None | None | None | None | None | None | None | 0.0 | 0.0 |  |
+| 20260821 | 22.5 | C | None | None | 18.431 | 0.539 | None | 0.997 | 0.0 | 0.0 | 0.002 | None | None |  |
+| 20260821 | 22.5 | P | None | None | 0.0 | 0.539 | None | -0.0 | 0.0 | 0.0 | -0.0 | None | None |  |
+| 20260821 | 25 | C | None | None | 15.939 | 0.539 | None | 0.997 | 0.0 | 0.0 | 0.001 | None | None |  |
+| 20260821 | 25 | P | None | 0.3 | None | 0.539 | None | -0.0 | 0.0 | 0.0 | -0.0 | 0.0 | 0.0 |  |
+| 20260821 | 30 | C | None | None | 10.957 | 0.412 | None | 0.995 | 0.002 | 0.001 | 0.0 | None | None |  |
+| 20260821 | 30 | P | None | None | 0.003 | 0.412 | None | -0.002 | 0.002 | 0.001 | -0.001 | None | None |  |
+| 20260821 | 35 | C | None | None | 5.992 | 0.286 | None | 0.978 | 0.015 | 0.005 | -0.002 | None | None |  |
+| 20260821 | 35 | P | None | 0.35 | None | 0.286 | None | -0.02 | 0.015 | 0.005 | -0.003 | 41.0 | 0.0 |  |
+| 20260821 | 40 | C | None | None | 1.811 | 0.286 | None | 0.635 | 0.117 | 0.042 | -0.022 | None | None |  |
+| 20260821 | 40 | P | 0.3 | 1.0 | 0.65 | None | None | -0.344 | 0.135 | 0.041 | -0.018 | 35.0 | 0.0 |  |
+| 20260821 | 45 | C | None | 0.95 | None | None | None | None | None | None | None | 480.0 | 0.0 |  |
+| 20260821 | 45 | P | None | None | 4.191 | 0.286 | None | -0.874 | 0.064 | 0.023 | -0.011 | None | None |  |
+| 20260821 | 50 | C | None | None | 0.006 | 0.286 | None | 0.006 | 0.005 | 0.002 | -0.001 | None | None |  |
+| 20260821 | 50 | P | None | None | 8.992 | 0.286 | None | -0.991 | 0.005 | 0.002 | 0.0 | None | None |  |
+| 20260821 | 55 | C | None | 0.95 | None | None | None | None | None | None | None | 0.0 | 0.0 |  |
+| 20260821 | 55 | P | None | None | 13.972 | 0.286 | None | -0.997 | 0.0 | 0.0 | 0.002 | None | None |  |
+| 20260918 | 20 | P | None | 0.75 | None | None | None | None | None | None | None | 0.0 | 0.0 |  |
+| 20260918 | 25 | P | None | 0.75 | None | None | None | None | None | None | None | 0.0 | 0.0 |  |
+| 20260918 | 35 | P | None | None | None | None | None | None | None | None | None | None | None |  |
+| 20260918 | 40 | P | None | None | None | None | None | None | None | None | None | None | None |  |
+| 20260918 | 45 | C | None | None | None | None | None | None | None | None | None | None | None |  |
 | 20260918 | 55 | C | None | None | None | None | None | None | None | None | None | None | None |  |
-| 20260918 | 55 | P | None | None | 13.6 | 0.238 | None | -0.993 | 0.001 | 0.001 | 0.002 | None | None |  |
 
 **Ultime candele daily**
 | data | O | H | L | C | volume | src |
@@ -43,6 +43,6 @@ Catena `BOX` · tradingClass `STAG` · mult `100`
 | 2026-07-17 | 42.11 | 42.6 | 41.48 | 41.68 | 4069.0 | lake |
 | 2026-07-20 | 41.68 | 42.17 | 41.63 | 41.82 | 3455.0 | lake |
 | 2026-07-21 | 41.93 | 42.06 | 41.6 | 41.77 | 4737.0 | lake |
-| 2026-07-22 | 41.99 | 41.99 | 41.27 | 41.3 | 7022.0 | tws · oggi (parziale) |
+| 2026-07-24 | 40.82 | 41.01 | 40.75 | 40.98 | 2037.0 | tws · oggi (parziale) |
 
-`sha256:7b4d17866845b343…` · TCC scheda_ticker v0.3
+`sha256:11bfd8ba90a4715f…` · TCC scheda_ticker v0.3
