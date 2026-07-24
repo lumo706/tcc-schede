@@ -2,7 +2,7 @@
   "schema_version": "1.2",
   "ticker": "XLKS",
   "stamp": {
-    "timestamp_fetch": "2026-07-24T13:25:16+02:00",
+    "timestamp_fetch": "2026-07-24T17:20:28+02:00",
     "data_type": "n/d",
     "lag_stimato_min": 20,
     "usage_layer": "context",
@@ -13,13 +13,13 @@
     "conId": 78999737,
     "exchange": "LSEETF",
     "currency": "USD",
-    "spot": 1011.0,
+    "spot": 1003.6,
     "open": 1006.8,
-    "high": 1012.4,
-    "low": 1006.8,
+    "high": 1014.0,
+    "low": 1000.8,
     "prior_close": 1004.5,
-    "volume": 106.0,
-    "change_pct": 0.65,
+    "volume": 661.0,
+    "change_pct": -0.09,
     "iv_underlying": null,
     "hv": 0.244,
     "iv_rank_52w": null,
@@ -163,10 +163,10 @@
     {
       "date": "2026-07-24",
       "o": 1006.8,
-      "h": 1012.4,
-      "l": 1006.8,
-      "c": 1011.0,
-      "v": 106.0,
+      "h": 1014.0,
+      "l": 1000.8,
+      "c": 1003.6,
+      "v": 661.0,
       "source": "tws",
       "partial": true
     }
@@ -200,8 +200,8 @@
       "options[]:delta",
       "options[]:open_interest"
     ],
-    "checksum": "27eacee25212ecf281a377f17b57d3731633fb6e9477982980fb20c36a696060",
-    "generated_at": "2026-07-24T13:25:16+02:00",
+    "checksum": "61ad03e89a0321b8495348d99b46cb1c667fcadc03807e5d4994613089bca205",
+    "generated_at": "2026-07-24T17:20:28+02:00",
     "generator": "TCC scheda_ticker v0.3",
     "last_commit": {
       "author": null,
