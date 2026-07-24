@@ -2,7 +2,7 @@
   "schema_version": "1.2",
   "ticker": "UIM9",
   "stamp": {
-    "timestamp_fetch": "2026-07-24T09:42:28+02:00",
+    "timestamp_fetch": "2026-07-24T13:23:03+02:00",
     "data_type": "n/d",
     "lag_stimato_min": 20,
     "usage_layer": "context",
@@ -15,10 +15,10 @@
     "currency": "EUR",
     "spot": 57.3,
     "open": 57.3,
-    "high": 57.35,
+    "high": 57.41,
     "low": 57.25,
     "prior_close": 57.13,
-    "volume": 29.0,
+    "volume": 1014.0,
     "change_pct": 0.3,
     "iv_underlying": null,
     "hv": 0.096,
@@ -163,10 +163,10 @@
     {
       "date": "2026-07-24",
       "o": 57.3,
-      "h": 57.35,
+      "h": 57.41,
       "l": 57.25,
       "c": 57.3,
-      "v": 29.0,
+      "v": 1014.0,
       "source": "tws",
       "partial": true
     }
@@ -200,8 +200,8 @@
       "options[]:delta",
       "options[]:open_interest"
     ],
-    "checksum": "586d13e8cad4e9c53bf1144cbef3adcd81ed47bfe29f2f1e78400a8ce9c680de",
-    "generated_at": "2026-07-24T09:42:28+02:00",
+    "checksum": "d82106088b19c1e4284418d2e06421bc9da5efeb326231ff49519ba261c31ec8",
+    "generated_at": "2026-07-24T13:23:03+02:00",
     "generator": "TCC scheda_ticker v0.3",
     "last_commit": {
       "author": null,
