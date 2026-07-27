@@ -1,7 +1,7 @@
-# Scheda UIM9 — 2026-07-27T09:31:47+02:00
+# Scheda UIM9 — 2026-07-27T13:23:19+02:00
 **Dati:** n/d · lag 20m · uso: **context** · lake: **ready**
-**UIM9** (IBIS, EUR) · spot **57.69** · O 57.69 H 57.73 L 57.69 · prior 57.55 · vol 325.0
-**IV None** (rank — (missing) / pct — (missing)) · HV 0.095 · IV-HV +Nonept · vol 325.0 vs avg20 13170 (0.02x) · 52w 43.535–78.292 (spot 41% del range)
+**UIM9** (IBIS, EUR) · spot **57.74** · O 57.69 H 57.83 L 57.66 · prior 57.55 · vol 1141.0
+**IV None** (rank — (missing) / pct — (missing)) · HV 0.095 · IV-HV +Nonept · vol 1141.0 vs avg20 13170 (0.09x) · 52w 43.535–78.292 (spot 41% del range)
 **VWAP — (missing)** · **POC — (missing)** · OI call None put None (P/C None)
 
 Catena `None` · tradingClass `None` · mult `None`
@@ -19,6 +19,6 @@ Catena `None` · tradingClass `None` · mult `None`
 | 2026-07-10 | 56.61 | 56.81 | 56.58 | 56.69 | 7992.0 | lake |
 | 2026-07-13 | 56.94 | 57.13 | 56.84 | 56.96 | 1428.0 | lake |
 | 2026-07-14 | 57.12 | 57.44 | 57.03 | 57.25 | 8613.0 | lake |
-| 2026-07-27 | 57.69 | 57.73 | 57.69 | 57.69 | 325.0 | tws · oggi (parziale) |
+| 2026-07-27 | 57.69 | 57.83 | 57.66 | 57.74 | 1141.0 | tws · oggi (parziale) |
 
-`sha256:e9c1f11fa0ce472e…` · TCC scheda_ticker v0.3
+`sha256:ef2436bafd766b72…` · TCC scheda_ticker v0.3
