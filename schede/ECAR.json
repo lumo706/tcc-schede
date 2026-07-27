@@ -2,7 +2,7 @@
   "schema_version": "1.2",
   "ticker": "ECAR",
   "stamp": {
-    "timestamp_fetch": "2026-07-24T17:20:25+02:00",
+    "timestamp_fetch": "2026-07-27T09:31:42+02:00",
     "data_type": "n/d",
     "lag_stimato_min": 20,
     "usage_layer": "context",
@@ -13,20 +13,20 @@
     "conId": 354802214,
     "exchange": "LSEETF",
     "currency": "USD",
-    "spot": 12.578,
-    "open": 12.658,
-    "high": 12.758,
-    "low": 12.504,
-    "prior_close": 12.705,
-    "volume": 105634.0,
-    "change_pct": -1.0,
+    "spot": 12.708,
+    "open": 12.71,
+    "high": 12.722,
+    "low": 12.7,
+    "prior_close": 12.61,
+    "volume": 1503.0,
+    "change_pct": 0.78,
     "iv_underlying": null,
-    "hv": 0.309,
+    "hv": 0.305,
     "iv_rank_52w": null,
     "iv_percentile_52w": null,
     "week52_high": 13.314,
     "week52_low": 6.993,
-    "avg_volume_20d": 36027,
+    "avg_volume_20d": 42419,
     "vwap": null,
     "vwap_source": null,
     "vwap_method": "VWAP typical-price barre 1m ECAR sessione corrente",
@@ -70,33 +70,6 @@
     "published_window": "ATM±8 strike (per rango, simmetrica)"
   },
   "ohlcv": [
-    {
-      "date": "2026-07-08",
-      "o": 11.456,
-      "h": 11.474,
-      "l": 11.224,
-      "c": 11.36,
-      "v": 57976.0,
-      "source": "lake"
-    },
-    {
-      "date": "2026-07-09",
-      "o": 11.508,
-      "h": 11.77,
-      "l": 11.5,
-      "c": 11.662,
-      "v": 27858.0,
-      "source": "lake"
-    },
-    {
-      "date": "2026-07-10",
-      "o": 11.678,
-      "h": 11.796,
-      "l": 11.638,
-      "c": 11.796,
-      "v": 16297.0,
-      "source": "lake"
-    },
     {
       "date": "2026-07-13",
       "o": 11.522,
@@ -161,12 +134,39 @@
       "source": "lake"
     },
     {
+      "date": "2026-07-22",
+      "o": 12.91,
+      "h": 13.146,
+      "l": 12.864,
+      "c": 13.146,
+      "v": 55438.0,
+      "source": "lake"
+    },
+    {
+      "date": "2026-07-23",
+      "o": 13.052,
+      "h": 13.102,
+      "l": 12.698,
+      "c": 12.705,
+      "v": 31388.0,
+      "source": "lake"
+    },
+    {
       "date": "2026-07-24",
       "o": 12.658,
       "h": 12.758,
       "l": 12.504,
-      "c": 12.578,
-      "v": 105634.0,
+      "c": 12.61,
+      "v": 112378.0,
+      "source": "lake"
+    },
+    {
+      "date": "2026-07-27",
+      "o": 12.71,
+      "h": 12.722,
+      "l": 12.7,
+      "c": 12.708,
+      "v": 1503.0,
       "source": "tws",
       "partial": true
     }
@@ -200,8 +200,8 @@
       "options[]:delta",
       "options[]:open_interest"
     ],
-    "checksum": "c019f75420a1004455ce4c2d9fa84869dac0106e5c5fbacf02b6b8246dabf000",
-    "generated_at": "2026-07-24T17:20:25+02:00",
+    "checksum": "23d3cef056c2b81eaaaf71ce82fb3427607110f9461e1f79da222a6efb60d09c",
+    "generated_at": "2026-07-27T09:31:42+02:00",
     "generator": "TCC scheda_ticker v0.3",
     "last_commit": {
       "author": null,

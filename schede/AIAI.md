@@ -1,8 +1,8 @@
-# Scheda AIAI — 2026-07-24T17:20:22+02:00
-**Dati:** n/d · lag 20m · uso: **context** · lake: **partial (46/252 giorni)**
-**AIAI** (LSEETF, USD) · spot **36.455** · O 37.23 H 37.35 L 36.235 · prior 36.96 · vol 48678.0
-**IV None** (rank — (warming_up) / pct — (warming_up)) · HV — (warming_up) · IV-HV +Nonept · vol 48678.0 vs avg20 173290 (0.28x) · 52w — (warming_up)–— (warming_up) (spot None% del range)
-**VWAP 7.206** · **POC 7.164** · OI call None put None (P/C None)
+# Scheda AIAI — 2026-07-27T09:31:23+02:00
+**Dati:** n/d · lag 20m · uso: **context** · lake: **partial (49/252 giorni)**
+**AIAI** (LSEETF, USD) · spot **37.06** · O 37.06 H 37.06 L 37.06 · prior 36.72 · vol 979.0
+**IV None** (rank — (warming_up) / pct — (warming_up)) · HV — (warming_up) · IV-HV +Nonept · vol 979.0 vs avg20 136612 (0.01x) · 52w — (warming_up)–— (warming_up) (spot None% del range)
+**VWAP 6.719** · **POC 6.782** · OI call None put None (P/C None)
 
 Catena `None` · tradingClass `None` · mult `None`
 
@@ -12,13 +12,13 @@ Catena `None` · tradingClass `None` · mult `None`
 **Ultime candele daily**
 | data | O | H | L | C | volume | src |
 |---|---|---|---|---|---|---|
-| 2026-07-13 | 10.47 | 11.23 | 9.93 | 10.09 | 147000.0 | lake |
-| 2026-07-14 | 10.26 | 10.37 | 9.677 | 9.83 | 97762.0 | lake |
-| 2026-07-15 | 39.56 | 39.56 | 38.47 | 38.56 | 28594.0 | lake |
 | 2026-07-16 | 38.53 | 38.53 | 37.5 | 37.816 | 61141.0 | lake |
 | 2026-07-17 | 36.7 | 37.01 | 36.2 | 36.63 | 32647.0 | lake |
 | 2026-07-20 | 37.03 | 37.546 | 37.03 | 37.44 | 49846.0 | lake |
 | 2026-07-21 | 37.786 | 38.036 | 37.72 | 38.02 | 43924.0 | lake |
-| 2026-07-24 | 37.23 | 37.35 | 36.235 | 36.455 | 48678.0 | tws · oggi (parziale) |
+| 2026-07-22 | 37.814 | 38.09 | 37.69 | 37.98 | 101574.0 | lake |
+| 2026-07-23 | 37.716 | 37.856 | 36.96 | 36.96 | 63076.0 | lake |
+| 2026-07-24 | 37.23 | 37.35 | 36.234 | 36.72 | 50693.0 | lake |
+| 2026-07-27 | 37.06 | 37.06 | 37.06 | 37.06 | 979.0 | tws · oggi (parziale) |
 
-`sha256:08c87eadef0160e5…` · TCC scheda_ticker v0.3
+`sha256:4a0da2ea80f136e8…` · TCC scheda_ticker v0.3
