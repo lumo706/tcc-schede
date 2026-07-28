@@ -2,7 +2,7 @@
   "schema_version": "1.2",
   "ticker": "BATT",
   "stamp": {
-    "timestamp_fetch": "2026-07-27T17:10:23+02:00",
+    "timestamp_fetch": "2026-07-28T09:41:30+02:00",
     "data_type": "n/d",
     "lag_stimato_min": 20,
     "usage_layer": "context",
@@ -13,25 +13,25 @@
     "conId": 305180916,
     "exchange": "AEB",
     "currency": "EUR",
-    "spot": 26.39,
-    "open": 26.41,
-    "high": 27.135,
-    "low": 26.14,
-    "prior_close": 26.85,
-    "volume": 29791.0,
-    "change_pct": -1.71,
+    "spot": 25.89,
+    "open": 26.51,
+    "high": 26.51,
+    "low": 25.735,
+    "prior_close": 26.26,
+    "volume": 7343.0,
+    "change_pct": -1.41,
     "iv_underlying": null,
-    "hv": 0.301,
+    "hv": null,
     "iv_rank_52w": null,
     "iv_percentile_52w": null,
     "week52_high": 35.6,
     "week52_low": 16.841,
-    "avg_volume_20d": 3077,
-    "vwap": null,
-    "vwap_source": null,
+    "avg_volume_20d": 3133,
+    "vwap": 25.92,
+    "vwap_source": "yahoo",
     "vwap_method": "VWAP typical-price barre 1m BATT.MI sessione corrente",
-    "poc": null,
-    "poc_source": null,
+    "poc": 25.92,
+    "poc_source": "yahoo",
     "poc_method": "volume-profile 50 bin, barre 5m BATT.MI sessione corrente",
     "oi_totals": {
       "call": null,
@@ -40,14 +40,14 @@
     }
   },
   "data_availability": {
-    "hv": "ok",
+    "hv": "missing",
     "iv_rank_52w": "missing",
     "iv_percentile_52w": "missing",
     "avg_volume_20d": "ok",
     "week52_high": "ok",
     "week52_low": "ok",
-    "vwap": "missing",
-    "poc": "missing",
+    "vwap": "ok",
+    "poc": "ok",
     "ohlcv": "ok"
   },
   "option_params": {
@@ -70,15 +70,6 @@
     "published_window": "ATM±8 strike (per rango, simmetrica)"
   },
   "ohlcv": [
-    {
-      "date": "2026-07-13",
-      "o": 28.045,
-      "h": 28.364,
-      "l": 27.92,
-      "c": 28.258,
-      "v": 3487.0,
-      "source": "lake"
-    },
     {
       "date": "2026-07-14",
       "o": 28.034,
@@ -162,11 +153,20 @@
     },
     {
       "date": "2026-07-27",
-      "o": 26.41,
-      "h": 27.135,
-      "l": 26.14,
-      "c": 26.39,
-      "v": 29791.0,
+      "o": 26.93,
+      "h": 26.954,
+      "l": 26.153,
+      "c": 26.3,
+      "v": 3182.0,
+      "source": "lake"
+    },
+    {
+      "date": "2026-07-28",
+      "o": 26.51,
+      "h": 26.51,
+      "l": 25.735,
+      "c": 25.89,
+      "v": 7343.0,
       "source": "tws",
       "partial": true
     }
@@ -187,7 +187,8 @@
       "prior_close",
       "volume",
       "iv_underlying",
-      "hv",
+      "vwap",
+      "poc",
       "week52_high",
       "week52_low",
       "avg_volume_20d",
@@ -200,8 +201,8 @@
       "options[]:delta",
       "options[]:open_interest"
     ],
-    "checksum": "ebcc698a0c3111468532edff92bd6c4bb9abf73c299c296038ad12d64d44a818",
-    "generated_at": "2026-07-27T17:10:23+02:00",
+    "checksum": "93f3a2eb788e04b72d1121ea73f30fd25d0ee9920ff8708f5f5be4f9f98a01ab",
+    "generated_at": "2026-07-28T09:41:30+02:00",
     "generator": "TCC scheda_ticker v0.3",
     "last_commit": {
       "author": null,

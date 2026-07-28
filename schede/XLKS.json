@@ -2,7 +2,7 @@
   "schema_version": "1.2",
   "ticker": "XLKS",
   "stamp": {
-    "timestamp_fetch": "2026-07-27T17:20:47+02:00",
+    "timestamp_fetch": "2026-07-28T09:47:50+02:00",
     "data_type": "n/d",
     "lag_stimato_min": 20,
     "usage_layer": "context",
@@ -13,20 +13,20 @@
     "conId": 78999737,
     "exchange": "LSEETF",
     "currency": "USD",
-    "spot": 992.7,
-    "open": 1016.4,
-    "high": 1018.6,
-    "low": 986.5,
-    "prior_close": 1009.4,
-    "volume": 601.0,
-    "change_pct": -1.65,
+    "spot": 986.0,
+    "open": 985.5,
+    "high": 985.5,
+    "low": 985.4,
+    "prior_close": 986.3,
+    "volume": 7.0,
+    "change_pct": -0.03,
     "iv_underlying": null,
-    "hv": 0.237,
+    "hv": null,
     "iv_rank_52w": null,
     "iv_percentile_52w": null,
     "week52_high": 1112.8,
     "week52_low": 752.7,
-    "avg_volume_20d": 1531,
+    "avg_volume_20d": 1407,
     "vwap": null,
     "vwap_source": null,
     "vwap_method": "VWAP typical-price barre 1m XLKS sessione corrente",
@@ -40,7 +40,7 @@
     }
   },
   "data_availability": {
-    "hv": "ok",
+    "hv": "missing",
     "iv_rank_52w": "missing",
     "iv_percentile_52w": "missing",
     "avg_volume_20d": "ok",
@@ -70,15 +70,6 @@
     "published_window": "ATM±8 strike (per rango, simmetrica)"
   },
   "ohlcv": [
-    {
-      "date": "2026-07-13",
-      "o": 1021.0,
-      "h": 1027.8,
-      "l": 1019.0,
-      "c": 1025.8,
-      "v": 476.0,
-      "source": "lake"
-    },
     {
       "date": "2026-07-14",
       "o": 1019.0,
@@ -164,9 +155,18 @@
       "date": "2026-07-27",
       "o": 1016.4,
       "h": 1018.6,
-      "l": 986.5,
-      "c": 992.7,
-      "v": 601.0,
+      "l": 986.3,
+      "c": 986.3,
+      "v": 772.0,
+      "source": "lake"
+    },
+    {
+      "date": "2026-07-28",
+      "o": 985.5,
+      "h": 985.5,
+      "l": 985.4,
+      "c": 986.0,
+      "v": 7.0,
       "source": "tws",
       "partial": true
     }
@@ -187,7 +187,6 @@
       "prior_close",
       "volume",
       "iv_underlying",
-      "hv",
       "week52_high",
       "week52_low",
       "avg_volume_20d",
@@ -200,8 +199,8 @@
       "options[]:delta",
       "options[]:open_interest"
     ],
-    "checksum": "32d12b18394eb73f0aea2f0390d14eb0824953b084cadfafc6a73bc2fe35d970",
-    "generated_at": "2026-07-27T17:20:47+02:00",
+    "checksum": "c0d8297af3e316313e08015b335ae26c945cf8184be9b29238dbafd7afdd3f0e",
+    "generated_at": "2026-07-28T09:47:50+02:00",
     "generator": "TCC scheda_ticker v0.3",
     "last_commit": {
       "author": null,
