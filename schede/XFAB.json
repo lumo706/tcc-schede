@@ -1,26 +1,27 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "1.2",
   "ticker": "XFAB",
   "stamp": {
-    "timestamp_fetch": "2026-07-15T16:12:54+02:00",
+    "timestamp_fetch": "2026-07-30T23:00:01+02:00",
     "data_type": "n/d",
     "lag_stimato_min": 20,
-    "usage_layer": "context"
+    "usage_layer": "context",
+    "lake_status": "partial (0/252 giorni)"
   },
   "underlying": {
     "symbol": "XFAB",
     "conId": 272103757,
     "exchange": "SBF",
     "currency": "EUR",
-    "spot": 8.322,
-    "open": 8.255,
-    "high": 8.425,
-    "low": 8.16,
-    "prior_close": 8.215,
-    "volume": 378158.0,
-    "change_pct": 1.31,
+    "spot": 7.08,
+    "open": 6.345,
+    "high": 7.12,
+    "low": 6.205,
+    "prior_close": 6.33,
+    "volume": 973053.0,
+    "change_pct": 11.85,
     "iv_underlying": null,
-    "hv": 0.929,
+    "hv": 0.782,
     "iv_rank_52w": null,
     "iv_percentile_52w": null,
     "week52_high": null,
@@ -31,12 +32,23 @@
     "vwap_method": "VWAP typical-price barre 1m XFAB.MI sessione corrente",
     "poc": null,
     "poc_source": null,
-    "poc_method": "volume-profile 50 bin, barre 5m XFAB.MI ultimi 20g",
+    "poc_method": "volume-profile 50 bin, barre 5m XFAB.MI sessione corrente",
     "oi_totals": {
       "call": null,
       "put": null,
       "put_call": null
     }
+  },
+  "data_availability": {
+    "hv": "ok",
+    "iv_rank_52w": "warming_up",
+    "iv_percentile_52w": "warming_up",
+    "avg_volume_20d": "warming_up",
+    "week52_high": "warming_up",
+    "week52_low": "warming_up",
+    "vwap": "warming_up",
+    "poc": "warming_up",
+    "ohlcv": "warming_up"
   },
   "option_params": {
     "exchange": null,
@@ -55,20 +67,9 @@
   },
   "options": [],
   "flags": {
-    "published_window": "±25% dallo spot (regolare)"
+    "published_window": "ATM±8 strike (per rango, simmetrica)"
   },
-  "ohlcv": [
-    {
-      "date": "2026-07-15",
-      "o": 8.255,
-      "h": 8.425,
-      "l": 8.16,
-      "c": 8.322,
-      "v": 378158.0,
-      "source": "tws",
-      "partial": true
-    }
-  ],
+  "ohlcv": [],
   "integrity": {
     "checksum_algo": "sha256",
     "checksum_fields": [
@@ -86,11 +87,6 @@
       "volume",
       "iv_underlying",
       "hv",
-      "vwap",
-      "poc",
-      "week52_high",
-      "week52_low",
-      "avg_volume_20d",
       "options[]:expiry",
       "options[]:strike",
       "options[]:right",
@@ -100,9 +96,9 @@
       "options[]:delta",
       "options[]:open_interest"
     ],
-    "checksum": "a1970414d5f373089429c6048c80a63d5dcda4ead9e0b9aac0bf84b2c71747fc",
-    "generated_at": "2026-07-15T16:12:54+02:00",
-    "generator": "TCC scheda_ticker v0.1",
+    "checksum": "cb1101385bc8a811c9110a4719ff58c165e66df0d907dc155a98aa7ddf032700",
+    "generated_at": "2026-07-30T23:00:01+02:00",
+    "generator": "TCC scheda_ticker v0.3",
     "last_commit": {
       "author": null,
       "timestamp": null
