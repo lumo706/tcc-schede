@@ -2,7 +2,7 @@
   "schema_version": "1.2",
   "ticker": "ECAR",
   "stamp": {
-    "timestamp_fetch": "2026-07-30T09:30:56+02:00",
+    "timestamp_fetch": "2026-07-30T13:25:59+02:00",
     "data_type": "n/d",
     "lag_stimato_min": 20,
     "usage_layer": "context",
@@ -13,13 +13,13 @@
     "conId": 354802214,
     "exchange": "LSEETF",
     "currency": "USD",
-    "spot": 11.9,
+    "spot": 12.042,
     "open": 11.882,
-    "high": 11.916,
-    "low": 11.87,
+    "high": 12.058,
+    "low": 11.846,
     "prior_close": 11.972,
-    "volume": 19491.0,
-    "change_pct": -0.6,
+    "volume": 25008.0,
+    "change_pct": 0.58,
     "iv_underlying": null,
     "hv": 0.306,
     "iv_rank_52w": null,
@@ -163,10 +163,10 @@
     {
       "date": "2026-07-30",
       "o": 11.882,
-      "h": 11.916,
-      "l": 11.87,
-      "c": 11.9,
-      "v": 19491.0,
+      "h": 12.058,
+      "l": 11.846,
+      "c": 12.042,
+      "v": 25008.0,
       "source": "tws",
       "partial": true
     }
@@ -200,8 +200,8 @@
       "options[]:delta",
       "options[]:open_interest"
     ],
-    "checksum": "522fe0b4797f9c9e5c7f6e5af64b7f6d44f6ad76876d3be82ef1e351bcb27ade",
-    "generated_at": "2026-07-30T09:30:56+02:00",
+    "checksum": "3b66dd33db92a35fbc0fbe61dcdc22981d1bc1620cf234497d8239197d7df555",
+    "generated_at": "2026-07-30T13:25:59+02:00",
     "generator": "TCC scheda_ticker v0.3",
     "last_commit": {
       "author": null,
