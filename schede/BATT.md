@@ -1,7 +1,7 @@
-# Scheda BATT — 2026-07-30T13:20:40+02:00
+# Scheda BATT — 2026-07-30T17:10:31+02:00
 **Dati:** n/d · lag 20m · uso: **context** · lake: **ready**
-**BATT** (AEB, EUR) · spot **25.36** · O 25.55 H 25.551 L 25.1 · prior 25.165 · vol 15665.0
-**IV None** (rank — (missing) / pct — (missing)) · HV 0.298 · IV-HV +Nonept · vol 15665.0 vs avg20 3294 (4.76x) · 52w 16.841–35.6 (spot 45% del range)
+**BATT** (AEB, EUR) · spot **25.99** · O 25.55 H 26.115 L 25.1 · prior 25.165 · vol 24552.0
+**IV None** (rank — (missing) / pct — (missing)) · HV 0.298 · IV-HV +Nonept · vol 24552.0 vs avg20 3294 (7.45x) · 52w 16.841–35.6 (spot 49% del range)
 **VWAP 25.165** · **POC 25.165** · OI call None put None (P/C None)
 
 Catena `None` · tradingClass `None` · mult `None`
@@ -19,6 +19,6 @@ Catena `None` · tradingClass `None` · mult `None`
 | 2026-07-27 | 26.93 | 26.954 | 26.153 | 26.3 | 3182.0 | lake |
 | 2026-07-28 | 25.913 | 25.953 | 25.297 | 25.55 | 1903.0 | lake |
 | 2026-07-29 | 25.432 | 25.57 | 25.132 | 25.206 | 6933.0 | lake |
-| 2026-07-30 | 25.55 | 25.551 | 25.1 | 25.36 | 15665.0 | tws · oggi (parziale) |
+| 2026-07-30 | 25.55 | 26.115 | 25.1 | 25.99 | 24552.0 | tws · oggi (parziale) |
 
-`sha256:b5fc1d15bdf7fd60…` · TCC scheda_ticker v0.3
+`sha256:26839247159592e5…` · TCC scheda_ticker v0.3
