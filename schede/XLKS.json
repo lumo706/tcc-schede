@@ -2,7 +2,7 @@
   "schema_version": "1.2",
   "ticker": "XLKS",
   "stamp": {
-    "timestamp_fetch": "2026-07-29T17:20:29+02:00",
+    "timestamp_fetch": "2026-07-30T09:31:09+02:00",
     "data_type": "n/d",
     "lag_stimato_min": 20,
     "usage_layer": "context",
@@ -13,20 +13,20 @@
     "conId": 78999737,
     "exchange": "LSEETF",
     "currency": "USD",
-    "spot": 969.1,
-    "open": 981.6,
-    "high": 985.3,
-    "low": 968.3,
-    "prior_close": 981.8,
-    "volume": 1077.0,
-    "change_pct": -1.29,
+    "spot": 970.9,
+    "open": 967.4,
+    "high": 970.9,
+    "low": 967.4,
+    "prior_close": 967.1,
+    "volume": 13.0,
+    "change_pct": 0.39,
     "iv_underlying": null,
-    "hv": 0.234,
+    "hv": 0.236,
     "iv_rank_52w": null,
     "iv_percentile_52w": null,
     "week52_high": 1112.8,
     "week52_low": 752.7,
-    "avg_volume_20d": 1407,
+    "avg_volume_20d": 1430,
     "vwap": null,
     "vwap_source": null,
     "vwap_method": "VWAP typical-price barre 1m XLKS sessione corrente",
@@ -70,24 +70,6 @@
     "published_window": "ATM±8 strike (per rango, simmetrica)"
   },
   "ohlcv": [
-    {
-      "date": "2026-07-14",
-      "o": 1019.0,
-      "h": 1030.6,
-      "l": 1015.2,
-      "c": 1030.3,
-      "v": 4691.0,
-      "source": "lake"
-    },
-    {
-      "date": "2026-07-15",
-      "o": 1036.6,
-      "h": 1036.8,
-      "l": 1020.6,
-      "c": 1020.6,
-      "v": 302.0,
-      "source": "lake"
-    },
     {
       "date": "2026-07-16",
       "o": 1025.0,
@@ -161,12 +143,30 @@
       "source": "lake"
     },
     {
+      "date": "2026-07-28",
+      "o": 985.5,
+      "h": 986.0,
+      "l": 965.0,
+      "c": 981.8,
+      "v": 2265.0,
+      "source": "lake"
+    },
+    {
       "date": "2026-07-29",
       "o": 981.6,
       "h": 985.3,
-      "l": 968.3,
-      "c": 969.1,
-      "v": 1077.0,
+      "l": 967.1,
+      "c": 967.1,
+      "v": 1136.0,
+      "source": "lake"
+    },
+    {
+      "date": "2026-07-30",
+      "o": 967.4,
+      "h": 970.9,
+      "l": 967.4,
+      "c": 970.9,
+      "v": 13.0,
       "source": "tws",
       "partial": true
     }
@@ -200,8 +200,8 @@
       "options[]:delta",
       "options[]:open_interest"
     ],
-    "checksum": "5b9cdc0565a0af41cf76c80c9fc4ca3927338cfcf5b0a69ce821d029d6582c0e",
-    "generated_at": "2026-07-29T17:20:29+02:00",
+    "checksum": "1cb766f5a3ea3d3d1529b4825509b5c0e9664a7f329902ed86398df97968ec11",
+    "generated_at": "2026-07-30T09:31:09+02:00",
     "generator": "TCC scheda_ticker v0.3",
     "last_commit": {
       "author": null,
