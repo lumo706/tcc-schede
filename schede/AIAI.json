@@ -2,35 +2,35 @@
   "schema_version": "1.2",
   "ticker": "AIAI",
   "stamp": {
-    "timestamp_fetch": "2026-07-30T17:20:51+02:00",
+    "timestamp_fetch": "2026-07-31T09:30:53+02:00",
     "data_type": "n/d",
     "lag_stimato_min": 20,
     "usage_layer": "context",
-    "lake_status": "partial (52/252 giorni)"
+    "lake_status": "partial (53/252 giorni)"
   },
   "underlying": {
     "symbol": "AIAI",
     "conId": 373511733,
     "exchange": "LSEETF",
     "currency": "USD",
-    "spot": 36.285,
-    "open": 35.255,
-    "high": 36.515,
-    "low": 35.21,
-    "prior_close": 35.18,
-    "volume": 24002.0,
-    "change_pct": 3.14,
+    "spot": 37.61,
+    "open": 37.61,
+    "high": 37.61,
+    "low": 37.61,
+    "prior_close": 36.395,
+    "volume": 150.0,
+    "change_pct": 3.34,
     "iv_underlying": null,
     "hv": null,
     "iv_rank_52w": null,
     "iv_percentile_52w": null,
     "week52_high": null,
     "week52_low": null,
-    "avg_volume_20d": 121026,
-    "vwap": 5.007,
+    "avg_volume_20d": 116910,
+    "vwap": 4.914,
     "vwap_source": "yahoo",
     "vwap_method": "VWAP typical-price barre 1m AIAI sessione corrente",
-    "poc": 4.938,
+    "poc": 4.905,
     "poc_source": "yahoo",
     "poc_method": "volume-profile 50 bin, barre 5m AIAI sessione corrente",
     "oi_totals": {
@@ -70,15 +70,6 @@
     "published_window": "ATM±8 strike (per rango, simmetrica)"
   },
   "ohlcv": [
-    {
-      "date": "2026-07-16",
-      "o": 38.53,
-      "h": 38.53,
-      "l": 37.5,
-      "c": 37.816,
-      "v": 61141.0,
-      "source": "lake"
-    },
     {
       "date": "2026-07-17",
       "o": 36.7,
@@ -162,11 +153,20 @@
     },
     {
       "date": "2026-07-30",
-      "o": 35.255,
-      "h": 36.515,
+      "o": 35.256,
+      "h": 36.516,
       "l": 35.21,
-      "c": 36.285,
-      "v": 24002.0,
+      "c": 36.396,
+      "v": 36588.0,
+      "source": "lake"
+    },
+    {
+      "date": "2026-07-31",
+      "o": 37.61,
+      "h": 37.61,
+      "l": 37.61,
+      "c": 37.61,
+      "v": 150.0,
       "source": "tws",
       "partial": true
     }
@@ -199,8 +199,8 @@
       "options[]:delta",
       "options[]:open_interest"
     ],
-    "checksum": "0af5253f92717937f9a8ab759a80455a275b4753099c50b57901f61241ca2790",
-    "generated_at": "2026-07-30T17:20:51+02:00",
+    "checksum": "f63b8306f629204e1dafafa950efa24fe7af872a1d661cbe8e631f8921c6150e",
+    "generated_at": "2026-07-31T09:30:53+02:00",
     "generator": "TCC scheda_ticker v0.3",
     "last_commit": {
       "author": null,
