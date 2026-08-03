@@ -2,7 +2,7 @@
   "schema_version": "1.2",
   "ticker": "XLKS",
   "stamp": {
-    "timestamp_fetch": "2026-07-31T17:20:42+02:00",
+    "timestamp_fetch": "2026-08-03T09:31:45+02:00",
     "data_type": "n/d",
     "lag_stimato_min": 20,
     "usage_layer": "context",
@@ -13,20 +13,20 @@
     "conId": 78999737,
     "exchange": "LSEETF",
     "currency": "USD",
-    "spot": 992.7,
-    "open": 999.8,
-    "high": 1010.6,
-    "low": 985.0,
-    "prior_close": 997.65,
-    "volume": 830.0,
-    "change_pct": -0.5,
+    "spot": 1007.6,
+    "open": 1008.6,
+    "high": 1008.6,
+    "low": 1007.6,
+    "prior_close": 989.3,
+    "volume": 12.0,
+    "change_pct": 1.85,
     "iv_underlying": null,
-    "hv": 0.242,
+    "hv": 0.246,
     "iv_rank_52w": null,
     "iv_percentile_52w": null,
     "week52_high": 1112.8,
     "week52_low": 752.7,
-    "avg_volume_20d": 1450,
+    "avg_volume_20d": 1506,
     "vwap": null,
     "vwap_source": null,
     "vwap_method": "VWAP typical-price barre 1m XLKS sessione corrente",
@@ -70,15 +70,6 @@
     "published_window": "ATM±8 strike (per rango, simmetrica)"
   },
   "ohlcv": [
-    {
-      "date": "2026-07-17",
-      "o": 992.7,
-      "h": 999.4,
-      "l": 979.9,
-      "c": 995.4,
-      "v": 1873.0,
-      "source": "lake"
-    },
     {
       "date": "2026-07-20",
       "o": 999.1,
@@ -165,8 +156,17 @@
       "o": 999.8,
       "h": 1010.6,
       "l": 985.0,
-      "c": 992.7,
-      "v": 830.0,
+      "c": 989.3,
+      "v": 3503.0,
+      "source": "lake"
+    },
+    {
+      "date": "2026-08-03",
+      "o": 1008.6,
+      "h": 1008.6,
+      "l": 1007.6,
+      "c": 1007.6,
+      "v": 12.0,
       "source": "tws",
       "partial": true
     }
@@ -200,8 +200,8 @@
       "options[]:delta",
       "options[]:open_interest"
     ],
-    "checksum": "02024099273eb4011011543c50b8d5c3532b9eae0596a6ae56dbf2153de6ecd6",
-    "generated_at": "2026-07-31T17:20:42+02:00",
+    "checksum": "f4125b6ee87e328a0a8efde8adb889b5358c7f5c497fe7e8009570d0091760b4",
+    "generated_at": "2026-08-03T09:31:45+02:00",
     "generator": "TCC scheda_ticker v0.3",
     "last_commit": {
       "author": null,
