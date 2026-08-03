@@ -2,7 +2,7 @@
   "schema_version": "1.2",
   "ticker": "BATT",
   "stamp": {
-    "timestamp_fetch": "2026-08-03T13:20:10+02:00",
+    "timestamp_fetch": "2026-08-03T17:10:10+02:00",
     "data_type": "n/d",
     "lag_stimato_min": 20,
     "usage_layer": "context",
@@ -15,10 +15,10 @@
     "currency": "EUR",
     "spot": 26.4,
     "open": 26.645,
-    "high": 26.65,
-    "low": 26.34,
+    "high": 26.71,
+    "low": 26.09,
     "prior_close": 26.135,
-    "volume": 35711.0,
+    "volume": 51514.0,
     "change_pct": 1.01,
     "iv_underlying": null,
     "hv": 0.308,
@@ -163,10 +163,10 @@
     {
       "date": "2026-08-03",
       "o": 26.645,
-      "h": 26.65,
-      "l": 26.34,
+      "h": 26.71,
+      "l": 26.09,
       "c": 26.4,
-      "v": 35711.0,
+      "v": 51514.0,
       "source": "tws",
       "partial": true
     }
@@ -200,8 +200,8 @@
       "options[]:delta",
       "options[]:open_interest"
     ],
-    "checksum": "2b4cd6161043a67f840fbcfba24ac6fa6a2c184dbd81f3d3fbdf6cf2cb5a5da6",
-    "generated_at": "2026-08-03T13:20:10+02:00",
+    "checksum": "2b2d77ff841c7e204dd2a430979e73e861605587c11512cb634d600f434497b5",
+    "generated_at": "2026-08-03T17:10:10+02:00",
     "generator": "TCC scheda_ticker v0.3",
     "last_commit": {
       "author": null,
