@@ -2,7 +2,7 @@
   "schema_version": "1.2",
   "ticker": "UIM9",
   "stamp": {
-    "timestamp_fetch": "2026-08-03T09:31:37+02:00",
+    "timestamp_fetch": "2026-08-03T13:23:21+02:00",
     "data_type": "n/d",
     "lag_stimato_min": 20,
     "usage_layer": "context",
@@ -13,13 +13,13 @@
     "conId": 73417108,
     "exchange": "IBIS",
     "currency": "EUR",
-    "spot": 57.0,
+    "spot": 57.08,
     "open": 57.03,
-    "high": 57.14,
-    "low": 56.98,
+    "high": 57.22,
+    "low": 56.94,
     "prior_close": 57.21,
-    "volume": 16556.0,
-    "change_pct": -0.37,
+    "volume": 25546.0,
+    "change_pct": -0.23,
     "iv_underlying": null,
     "hv": 0.1,
     "iv_rank_52w": null,
@@ -163,10 +163,10 @@
     {
       "date": "2026-08-03",
       "o": 57.03,
-      "h": 57.14,
-      "l": 56.98,
-      "c": 57.0,
-      "v": 16556.0,
+      "h": 57.22,
+      "l": 56.94,
+      "c": 57.08,
+      "v": 25546.0,
       "source": "tws",
       "partial": true
     }
@@ -200,8 +200,8 @@
       "options[]:delta",
       "options[]:open_interest"
     ],
-    "checksum": "ddac8014b3cc3e28382c37a96aef1587e1457e54752034ca5370af358150e101",
-    "generated_at": "2026-08-03T09:31:37+02:00",
+    "checksum": "70a488a29b2d724334aa820e02c9900a360d30ffb297c27c69f689d3195d044e",
+    "generated_at": "2026-08-03T13:23:21+02:00",
     "generator": "TCC scheda_ticker v0.3",
     "last_commit": {
       "author": null,
