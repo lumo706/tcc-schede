@@ -1,8 +1,8 @@
-# Scheda BATT — 2026-08-04T13:20:45+02:00
+# Scheda BATT — 2026-08-05T09:30:51+02:00
 **Dati:** n/d · lag 20m · uso: **context** · lake: **ready**
-**BATT** (AEB, EUR) · spot **27.285** · O 26.925 H 27.47 L 26.925 · prior 26.505 · vol 11947.0
-**IV None** (rank — (missing) / pct — (missing)) · HV 0.314 · IV-HV +Nonept · vol 11947.0 vs avg20 3386 (3.53x) · 52w 17.232–35.6 (spot 55% del range)
-**VWAP — (missing)** · **POC — (missing)** · OI call None put None (P/C None)
+**BATT** (AEB, EUR) · spot **28.335** · O 28.265 H 28.425 L 28.265 · prior 27.695 · vol 1650.0
+**IV None** (rank — (missing) / pct — (missing)) · HV 0.297 · IV-HV +Nonept · vol 1650.0 vs avg20 3386 (0.49x) · 52w 17.232–35.6 (spot 60% del range)
+**VWAP 28.304** · **POC 28.295** · OI call None put None (P/C None)
 
 Catena `None` · tradingClass `None` · mult `None`
 
@@ -12,13 +12,13 @@ Catena `None` · tradingClass `None` · mult `None`
 **Ultime candele daily**
 | data | O | H | L | C | volume | src |
 |---|---|---|---|---|---|---|
-| 2026-07-23 | 27.599 | 27.742 | 27.0 | 27.02 | 490.0 | lake |
 | 2026-07-24 | 26.909 | 27.121 | 26.55 | 26.842 | 3276.0 | lake |
 | 2026-07-27 | 26.93 | 26.954 | 26.153 | 26.3 | 3182.0 | lake |
 | 2026-07-28 | 25.913 | 25.953 | 25.297 | 25.55 | 1903.0 | lake |
 | 2026-07-29 | 25.432 | 25.57 | 25.132 | 25.206 | 6933.0 | lake |
 | 2026-07-30 | 25.182 | 26.115 | 25.1 | 25.907 | 1171.0 | lake |
 | 2026-07-31 | 26.5 | 26.792 | 26.05 | 26.209 | 3133.0 | lake |
-| 2026-08-04 | 26.925 | 27.47 | 26.925 | 27.285 | 11947.0 | tws · oggi (parziale) |
+| 2026-08-03 | 26.64 | 26.71 | 26.09 | 26.55 | 15942.0 | yahoo (gap-fill) |
+| 2026-08-05 | 28.265 | 28.425 | 28.265 | 28.335 | 1650.0 | tws · oggi (parziale) |
 
-`sha256:3380c8783f248959…` · TCC scheda_ticker v0.3
+`sha256:45470b771ac569a5…` · TCC scheda_ticker v0.3

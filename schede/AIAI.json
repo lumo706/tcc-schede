@@ -2,7 +2,7 @@
   "schema_version": "1.2",
   "ticker": "AIAI",
   "stamp": {
-    "timestamp_fetch": "2026-08-04T13:26:03+02:00",
+    "timestamp_fetch": "2026-08-05T09:30:37+02:00",
     "data_type": "n/d",
     "lag_stimato_min": 20,
     "usage_layer": "context",
@@ -13,13 +13,13 @@
     "conId": 373511733,
     "exchange": "LSEETF",
     "currency": "USD",
-    "spot": 38.835,
-    "open": 38.735,
-    "high": 38.835,
-    "low": 38.555,
-    "prior_close": 38.255,
-    "volume": 26583.0,
-    "change_pct": 1.52,
+    "spot": 40.345,
+    "open": 40.345,
+    "high": 40.345,
+    "low": 40.345,
+    "prior_close": 39.665,
+    "volume": 820.0,
+    "change_pct": 1.71,
     "iv_underlying": null,
     "hv": null,
     "iv_rank_52w": null,
@@ -27,10 +27,10 @@
     "week52_high": null,
     "week52_low": null,
     "avg_volume_20d": 109795,
-    "vwap": 5.031,
+    "vwap": 5.056,
     "vwap_source": "yahoo",
     "vwap_method": "VWAP typical-price barre 1m AIAI sessione corrente",
-    "poc": 5.002,
+    "poc": 5.242,
     "poc_source": "yahoo",
     "poc_method": "volume-profile 50 bin, barre 5m AIAI sessione corrente",
     "oi_totals": {
@@ -70,24 +70,6 @@
     "published_window": "ATM±8 strike (per rango, simmetrica)"
   },
   "ohlcv": [
-    {
-      "date": "2026-07-20",
-      "o": 37.03,
-      "h": 37.546,
-      "l": 37.03,
-      "c": 37.44,
-      "v": 49846.0,
-      "source": "lake"
-    },
-    {
-      "date": "2026-07-21",
-      "o": 37.786,
-      "h": 38.036,
-      "l": 37.72,
-      "c": 38.02,
-      "v": 43924.0,
-      "source": "lake"
-    },
     {
       "date": "2026-07-22",
       "o": 37.814,
@@ -161,12 +143,30 @@
       "source": "lake"
     },
     {
+      "date": "2026-08-03",
+      "o": 5.06,
+      "h": 5.27,
+      "l": 4.87,
+      "c": 4.98,
+      "v": 104700.0,
+      "source": "yahoo (gap-fill)"
+    },
+    {
       "date": "2026-08-04",
-      "o": 38.735,
-      "h": 38.835,
-      "l": 38.555,
-      "c": 38.835,
-      "v": 26583.0,
+      "o": 5.2,
+      "h": 5.5,
+      "l": 4.61,
+      "c": 4.63,
+      "v": 279400.0,
+      "source": "yahoo (gap-fill)"
+    },
+    {
+      "date": "2026-08-05",
+      "o": 40.345,
+      "h": 40.345,
+      "l": 40.345,
+      "c": 40.345,
+      "v": 820.0,
       "source": "tws",
       "partial": true
     }
@@ -199,8 +199,8 @@
       "options[]:delta",
       "options[]:open_interest"
     ],
-    "checksum": "665d5459aa0d9d62bdc9b6fb0485190501efcfdb622da0d9c878eb7e24b05d3d",
-    "generated_at": "2026-08-04T13:26:03+02:00",
+    "checksum": "241466fdb6ccefc277a7f8301e89dc53142d184c5c51fdedf8d09c0355ad93cf",
+    "generated_at": "2026-08-05T09:30:37+02:00",
     "generator": "TCC scheda_ticker v0.3",
     "last_commit": {
       "author": null,
