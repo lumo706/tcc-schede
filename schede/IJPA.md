@@ -1,7 +1,7 @@
-# Scheda IJPA — 2026-08-05T09:30:47+02:00
+# Scheda IJPA — 2026-08-05T13:20:46+02:00
 **Dati:** n/d · lag 20m · uso: **context** · lake: **ready**
-**IJPA** (AEB, EUR) · spot **None** · O None H None L None · prior None · vol None
-**IV None** (rank — (missing) / pct — (missing)) · HV 0.21 · IV-HV +Nonept · vol None vs avg20 13621 (Nonex) · 52w 53.815–72.85 (spot None% del range)
+**IJPA** (AEB, EUR) · spot **71.236** · O None H None L 71.06 · prior None · vol 17094.0
+**IV None** (rank — (missing) / pct — (missing)) · HV 0.21 · IV-HV +Nonept · vol 17094.0 vs avg20 13621 (1.25x) · 52w 53.815–72.85 (spot 92% del range)
 **VWAP — (missing)** · **POC — (missing)** · OI call None put None (P/C None)
 
 Catena `None` · tradingClass `None` · mult `None`
@@ -21,4 +21,4 @@ Catena `None` · tradingClass `None` · mult `None`
 | 2026-07-30 | 67.81 | 69.5 | 67.15 | 69.27 | 15828.0 | lake |
 | 2026-07-31 | 69.12 | 69.69 | 68.765 | 69.11 | 8849.0 | lake |
 
-`sha256:eb7c4bd4e7591aa2…` · TCC scheda_ticker v0.3
+`sha256:0d7bfdc8f9b881ae…` · TCC scheda_ticker v0.3
