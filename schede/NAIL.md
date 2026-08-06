@@ -1,56 +1,81 @@
-# Scheda NAIL — 2026-08-06T00:38:52+02:00
+# Scheda NAIL — 2026-08-06T15:43:11+02:00
 **Dati:** 🟡 delayed (15-20m) · lag 20m · uso: **context** · lake: **ready**
-**NAIL** (ARCA, USD) · spot **45.15** · O 42.8 H 45.42 L 42.16 · prior 43.08 · vol 9433.0
-**IV 0.882** (rank 57.9 / pct 58.2) · HV 0.81 · IV-HV +7.2pt · vol 9433.0 vs avg20 162714 (0.06x) · 52w 29.63–99.006 (spot 22% del range)
-**VWAP — (missing)** · **POC — (missing)** · OI call 14539.0 put 7022.0 (P/C 0.483)
+**NAIL** (ARCA, USD) · spot **43.0** · O 44.0 H 44.79 L 42.54 · prior 44.93 · vol 2396.0
+**IV 0.855** (rank 50.3 / pct 43.4) · HV 0.81 · IV-HV +4.5pt · vol 2396.0 vs avg20 162714 (0.01x) · 52w 29.63–99.006 (spot 19% del range)
+**VWAP — (missing)** · **POC — (missing)** · OI call 41699.0 put 18093.0 (P/C 0.434)
 
 Catena `IBUSOPT` · tradingClass `NAIL` · mult `100`
 
 | scad | strike | tipo | bid | ask | mid | IV | IV(bs) | Δ | Γ | vega | theta | OI | vol | ⚠ |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 20260807 | 41 | C | None | None | 4.179 | 0.994 | None | 0.972 | 0.028 | 0.002 | -0.08 | None | None |  |
-| 20260807 | 41 | P | None | None | None | None | None | None | None | None | None | None | 0.0 |  |
-| 20260807 | 41.5 | C | None | None | 3.7 | 0.994 | None | 0.953 | 0.043 | 0.002 | -0.121 | None | None |  |
-| 20260807 | 41.5 | P | None | None | 0.046 | 0.994 | None | -0.047 | 0.043 | 0.002 | -0.117 | None | None |  |
-| 20260807 | 42 | C | None | None | 3.233 | 0.994 | None | 0.925 | 0.061 | 0.003 | -0.172 | None | None |  |
-| 20260807 | 42 | P | None | None | None | 0.994 | None | -0.075 | 0.061 | 0.003 | -0.169 | None | 0.0 |  |
-| 20260807 | 42.5 | C | None | None | 2.785 | 0.994 | None | 0.886 | 0.083 | 0.004 | -0.233 | None | None |  |
-| 20260807 | 42.5 | P | None | None | 0.131 | 0.994 | None | -0.114 | 0.083 | 0.004 | -0.229 | None | None |  |
-| 20260807 | 43 | C | None | None | 2.359 | 0.994 | None | 0.836 | 0.107 | 0.006 | -0.297 | None | None |  |
-| 20260807 | 43 | P | None | None | None | None | None | None | None | None | None | None | 0.0 |  |
-| 20260807 | 43.5 | C | None | None | 1.964 | 0.994 | None | 0.774 | 0.13 | 0.007 | -0.36 | None | None |  |
-| 20260807 | 43.5 | P | None | None | 0.31 | 0.994 | None | -0.226 | 0.13 | 0.007 | -0.357 | None | None |  |
-| 20260807 | 44 | C | None | None | 1.603 | 0.994 | None | 0.702 | 0.15 | 0.008 | -0.415 | None | None |  |
-| 20260807 | 44 | P | None | None | None | None | None | None | None | None | None | None | 0.0 |  |
-| 20260807 | 44.5 | C | None | None | 1.281 | 0.994 | None | 0.622 | 0.164 | 0.009 | -0.455 | None | None |  |
-| 20260807 | 44.5 | P | None | None | 0.627 | 0.994 | None | -0.378 | 0.164 | 0.009 | -0.451 | None | None |  |
-| 20260807 | 45 | C | None | None | 1.001 | 0.994 | None | 0.537 | 0.171 | 0.009 | -0.475 | None | None |  |
-| 20260807 | 45 | P | None | None | None | None | None | None | None | None | None | None | 0.0 |  |
-| 20260807 | 45.5 | C | None | None | 0.765 | 0.994 | None | 0.451 | 0.171 | 0.009 | -0.473 | None | None |  |
-| 20260807 | 45.5 | P | None | None | 1.111 | 0.994 | None | -0.549 | 0.171 | 0.009 | -0.469 | None | None |  |
-| 20260807 | 46 | C | None | None | None | None | None | None | None | None | None | None | 0.0 |  |
-| 20260807 | 46 | P | None | None | 1.416 | 0.994 | None | -0.632 | 0.163 | 0.009 | -0.446 | None | None |  |
-| 20260807 | 46.5 | C | None | None | 0.414 | 0.994 | None | 0.292 | 0.148 | 0.008 | -0.41 | None | None |  |
-| 20260807 | 46.5 | P | None | None | 1.76 | 0.994 | None | -0.708 | 0.148 | 0.008 | -0.406 | None | None |  |
-| 20260807 | 47 | C | None | None | None | None | None | None | None | None | None | None | 0.0 |  |
-| 20260807 | 47 | P | None | None | 2.14 | 0.994 | None | -0.775 | 0.129 | 0.007 | -0.354 | None | None |  |
-| 20260807 | 47.5 | C | None | None | 0.203 | 0.994 | None | 0.168 | 0.108 | 0.006 | -0.3 | None | None |  |
-| 20260807 | 47.5 | P | None | None | 2.549 | 0.994 | None | -0.832 | 0.108 | 0.006 | -0.296 | None | None |  |
-| 20260807 | 48 | C | None | None | None | None | None | None | None | None | None | None | 0.0 |  |
-| 20260807 | 48 | P | None | None | 2.982 | 0.994 | None | -0.878 | 0.087 | 0.005 | -0.237 | None | None |  |
-| 20260807 | 48.5 | C | None | None | 0.089 | 0.994 | None | 0.086 | 0.068 | 0.004 | -0.187 | None | None |  |
-| 20260807 | 48.5 | P | None | None | 3.435 | 0.994 | None | -0.914 | 0.068 | 0.004 | -0.182 | None | None |  |
-| 20260807 | 49 | C | None | None | None | None | None | None | None | None | None | None | 0.0 |  |
-| 20260807 | 49 | P | None | None | 3.903 | 0.994 | None | -0.942 | 0.05 | 0.003 | -0.135 | None | None |  |
-| 20260814 | 41 | P | None | None | None | None | None | None | None | None | None | None | 0.0 |  |
-| 20260814 | 42 | P | None | None | None | None | None | None | None | None | None | None | 0.0 |  |
-| 20260814 | 43 | P | None | None | None | None | None | None | None | None | None | None | 0.0 |  |
-| 20260814 | 44 | P | None | None | None | None | None | None | None | None | None | None | 0.0 |  |
-| 20260814 | 45 | P | None | None | None | None | None | None | None | None | None | None | 0.0 |  |
-| 20260814 | 46 | C | None | None | None | None | None | None | None | None | None | None | 0.0 |  |
-| 20260814 | 47 | C | None | None | None | None | None | None | None | None | None | None | 0.0 |  |
-| 20260814 | 48 | C | None | None | None | None | None | None | None | None | None | None | 0.0 |  |
-| 20260814 | 49 | C | None | None | None | None | None | None | None | None | None | None | 0.0 |  |
+| 20260807 | 39 | C | None | None | 4.002 | 1.052 | None | 0.999 | 0.003 | 0.0 | -0.011 | None | None |  |
+| 20260807 | 39 | P | None | None | None | 1.052 | None | -0.001 | 0.003 | 0.0 | -0.008 | None | 0.0 |  |
+| 20260807 | 39.5 | C | None | None | 3.503 | 1.048 | None | 0.996 | 0.009 | 0.0 | -0.027 | None | None |  |
+| 20260807 | 39.5 | P | None | None | 0.002 | 1.048 | None | -0.004 | 0.009 | 0.0 | -0.024 | None | None |  |
+| 20260807 | 40 | C | None | None | 3.007 | 1.044 | None | 0.988 | 0.022 | 0.0 | -0.064 | None | None |  |
+| 20260807 | 40 | P | None | None | None | 1.044 | None | -0.012 | 0.022 | 0.0 | -0.061 | None | 0.0 |  |
+| 20260807 | 40.5 | C | None | None | 2.517 | 1.041 | None | 0.971 | 0.049 | 0.001 | -0.137 | None | None |  |
+| 20260807 | 40.5 | P | None | None | 0.016 | 1.041 | None | -0.029 | 0.049 | 0.001 | -0.134 | None | None |  |
+| 20260807 | 41 | C | None | None | 2.041 | 1.038 | None | 0.934 | 0.093 | 0.002 | -0.257 | None | None |  |
+| 20260807 | 41 | P | None | None | None | 1.038 | None | -0.066 | 0.093 | 0.002 | -0.253 | None | 0.0 |  |
+| 20260807 | 41.5 | C | None | None | 1.59 | 1.035 | None | 0.871 | 0.154 | 0.003 | -0.419 | None | None |  |
+| 20260807 | 41.5 | P | None | None | 0.089 | 1.035 | None | -0.129 | 0.154 | 0.003 | -0.416 | None | None |  |
+| 20260807 | 42 | C | None | None | 1.18 | 1.032 | None | 0.776 | 0.219 | 0.004 | -0.594 | None | None |  |
+| 20260807 | 42 | P | None | None | None | 1.032 | None | -0.224 | 0.219 | 0.004 | -0.591 | None | 1.0 |  |
+| 20260807 | 42.5 | C | None | None | 0.826 | 1.028 | None | 0.65 | 0.272 | 0.005 | -0.732 | None | None |  |
+| 20260807 | 42.5 | P | None | None | 0.325 | 1.028 | None | -0.349 | 0.272 | 0.005 | -0.728 | None | None |  |
+| 20260807 | 43 | C | None | None | None | 1.025 | None | 0.515 | 0.294 | 0.005 | -0.785 | None | 20.0 |  |
+| 20260807 | 43 | P | None | None | 0.54 | 1.024 | None | -0.493 | 0.294 | 0.005 | -0.781 | None | None |  |
+| 20260807 | 43.5 | C | None | None | 0.328 | 1.02 | None | 0.362 | 0.278 | 0.005 | -0.734 | None | None |  |
+| 20260807 | 43.5 | P | None | None | 0.826 | 1.02 | None | -0.638 | 0.278 | 0.005 | -0.73 | None | None |  |
+| 20260807 | 44 | C | None | None | None | 1.014 | None | 0.363 | 0.229 | 0.004 | -0.599 | None | 0.0 |  |
+| 20260807 | 44 | P | None | None | 1.181 | 1.014 | None | -0.764 | 0.229 | 0.004 | -0.595 | None | None |  |
+| 20260807 | 44.5 | C | None | None | 0.092 | 1.009 | None | 0.138 | 0.165 | 0.003 | -0.426 | None | None |  |
+| 20260807 | 44.5 | P | None | None | 1.591 | 1.009 | None | -0.862 | 0.165 | 0.003 | -0.423 | None | None |  |
+| 20260807 | 45 | C | None | None | None | 1.003 | None | 0.231 | 0.104 | 0.002 | -0.265 | None | 0.0 |  |
+| 20260807 | 45 | P | None | None | 2.041 | 1.003 | None | -0.928 | 0.104 | 0.002 | -0.261 | None | None |  |
+| 20260807 | 45.5 | C | None | None | 0.018 | 0.998 | None | 0.034 | 0.057 | 0.001 | -0.144 | None | None |  |
+| 20260807 | 45.5 | P | None | None | 2.516 | 0.998 | None | -0.966 | 0.057 | 0.001 | -0.14 | None | None |  |
+| 20260807 | 46 | C | None | None | None | 0.993 | None | 0.131 | 0.027 | 0.001 | -0.069 | None | 4.0 |  |
+| 20260807 | 46 | P | None | None | 3.005 | 0.993 | None | -0.986 | 0.027 | 0.001 | -0.065 | None | None |  |
+| 20260807 | 46.5 | C | None | None | 0.002 | 0.99 | None | 0.005 | 0.012 | 0.0 | -0.029 | None | None |  |
+| 20260807 | 46.5 | P | None | None | 3.501 | 0.99 | None | -0.995 | 0.012 | 0.0 | -0.025 | None | None |  |
+| 20260807 | 47 | C | None | None | None | 0.986 | None | 0.067 | 0.004 | 0.0 | -0.011 | None | 0.0 |  |
+| 20260807 | 47 | P | None | None | 3.999 | 0.986 | None | -0.998 | 0.004 | 0.0 | -0.007 | None | None |  |
+| 20260814 | 39 | C | None | None | 4.726 | 0.923 | None | 0.792 | 0.051 | 0.017 | -0.112 | None | None |  |
+| 20260814 | 39 | P | None | None | None | 0.924 | None | -0.207 | 0.051 | 0.017 | -0.109 | None | 0.0 |  |
+| 20260814 | 39.5 | C | None | None | 4.349 | 0.919 | None | 0.764 | 0.055 | 0.019 | -0.12 | None | None |  |
+| 20260814 | 39.5 | P | None | None | 0.825 | 0.919 | None | -0.235 | 0.055 | 0.019 | -0.116 | None | None |  |
+| 20260814 | 40 | C | None | None | 3.987 | 0.915 | None | 0.735 | 0.059 | 0.02 | -0.127 | None | None |  |
+| 20260814 | 40 | P | None | None | None | 0.915 | None | -0.265 | 0.059 | 0.02 | -0.123 | None | 0.0 |  |
+| 20260814 | 40.5 | C | None | None | 3.642 | 0.911 | None | 0.703 | 0.062 | 0.021 | -0.133 | None | None |  |
+| 20260814 | 40.5 | P | None | None | 1.118 | 0.911 | None | -0.297 | 0.062 | 0.021 | -0.13 | None | None |  |
+| 20260814 | 41 | C | None | None | 3.314 | 0.906 | None | 0.67 | 0.065 | 0.022 | -0.138 | None | None |  |
+| 20260814 | 41 | P | None | None | None | 0.907 | None | -0.33 | 0.065 | 0.022 | -0.135 | None | 51.0 |  |
+| 20260814 | 41.5 | C | None | None | 3.004 | 0.903 | None | 0.635 | 0.068 | 0.023 | -0.143 | None | None |  |
+| 20260814 | 41.5 | P | None | None | 1.479 | 0.903 | None | -0.365 | 0.068 | 0.023 | -0.139 | None | None |  |
+| 20260814 | 42 | C | None | None | 2.712 | 0.899 | None | 0.6 | 0.07 | 0.024 | -0.146 | None | None |  |
+| 20260814 | 42 | P | None | None | None | 0.899 | None | -0.4 | 0.07 | 0.024 | -0.143 | None | 0.0 |  |
+| 20260814 | 42.5 | C | None | None | 2.439 | 0.896 | None | 0.564 | 0.072 | 0.024 | -0.148 | None | None |  |
+| 20260814 | 42.5 | P | None | None | 1.913 | 0.896 | None | -0.436 | 0.072 | 0.024 | -0.145 | None | None |  |
+| 20260814 | 43 | C | None | None | None | 0.893 | None | 0.53 | 0.073 | 0.024 | -0.149 | None | 15.0 |  |
+| 20260814 | 43 | P | None | None | 2.158 | 0.893 | None | -0.473 | 0.073 | 0.024 | -0.146 | None | None |  |
+| 20260814 | 43.5 | C | None | None | 1.949 | 0.891 | None | 0.49 | 0.073 | 0.024 | -0.149 | None | None |  |
+| 20260814 | 43.5 | P | None | None | 2.422 | 0.891 | None | -0.509 | 0.073 | 0.024 | -0.145 | None | None |  |
+| 20260814 | 44 | C | None | None | None | 0.888 | None | 0.462 | 0.073 | 0.024 | -0.148 | None | 0.0 |  |
+| 20260814 | 44 | P | None | None | 2.704 | 0.888 | None | -0.545 | 0.073 | 0.024 | -0.144 | None | None |  |
+| 20260814 | 44.5 | C | None | None | 1.533 | 0.886 | None | 0.419 | 0.072 | 0.024 | -0.145 | None | None |  |
+| 20260814 | 44.5 | P | None | None | 3.006 | 0.886 | None | -0.581 | 0.072 | 0.024 | -0.141 | None | None |  |
+| 20260814 | 45 | C | None | None | None | 0.884 | None | 0.395 | 0.071 | 0.023 | -0.141 | None | 0.0 |  |
+| 20260814 | 45 | P | None | None | 3.324 | 0.884 | None | -0.616 | 0.071 | 0.023 | -0.138 | None | None |  |
+| 20260814 | 45.5 | C | None | None | 1.188 | 0.883 | None | 0.35 | 0.069 | 0.023 | -0.137 | None | None |  |
+| 20260814 | 45.5 | P | None | None | 3.659 | 0.883 | None | -0.649 | 0.069 | 0.023 | -0.133 | None | None |  |
+| 20260814 | 46 | C | None | None | None | 0.881 | None | 0.333 | 0.066 | 0.022 | -0.132 | None | 0.0 |  |
+| 20260814 | 46 | P | None | None | 4.011 | 0.881 | None | -0.681 | 0.066 | 0.022 | -0.128 | None | None |  |
+| 20260814 | 46.5 | C | None | None | 0.907 | 0.88 | None | 0.288 | 0.064 | 0.021 | -0.126 | None | None |  |
+| 20260814 | 46.5 | P | None | None | 4.378 | 0.88 | None | -0.712 | 0.064 | 0.021 | -0.122 | None | None |  |
+| 20260814 | 47 | C | None | None | None | 0.879 | None | 0.275 | 0.06 | 0.02 | -0.119 | None | 1.0 |  |
+| 20260814 | 47 | P | None | None | 4.759 | 0.879 | None | -0.741 | 0.06 | 0.02 | -0.115 | None | None |  |
 
 **Ultime candele daily**
 | data | O | H | L | C | volume | src |
@@ -62,6 +87,6 @@ Catena `IBUSOPT` · tradingClass `NAIL` · mult `100`
 | 2026-08-03 | 38.18 | 41.18 | 38.02 | 40.2 | 10321.0 | lake |
 | 2026-08-04 | 40.22 | 43.4 | 39.7 | 42.87 | 12868.0 | lake |
 | 2026-08-05 | 44.03 | 45.42 | 42.16 | 45.0 | 7589.0 | lake |
-| 2026-08-06 | 42.8 | 45.42 | 42.16 | 45.15 | 9433.0 | tws · oggi (parziale) |
+| 2026-08-06 | 44.0 | 44.79 | 42.54 | 43.0 | 2396.0 | tws · oggi (parziale) |
 
-`sha256:d809a1e1e0eae7af…` · TCC scheda_ticker v0.3
+`sha256:23afe1940e48c9d5…` · TCC scheda_ticker v0.3
