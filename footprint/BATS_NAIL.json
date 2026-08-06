@@ -2,9 +2,9 @@
  "sym": "BATS:NAIL",
  "tf": "15",
  "schema_version": "fp-1.0",
- "n_candles": 11,
+ "n_candles": 12,
  "t_from": 1785969900000,
- "t_to": 1786014900000,
+ "t_to": 1786015800000,
  "note": "candele footprint 15m; rows=profilo per livello: dn/up=banda prezzo (up=dn+tpr*mintick), bv/sv=volume aggressivo buy/sell, d=bv-sv, tv=bv+sv, bi/si=imbalance(1/0). tpr=1 → tick-level.",
  "candles": [
   {
@@ -541,6 +541,53 @@
    ],
    "missing_5m": [
     1786014900000
+   ]
+  },
+  {
+   "t": 1786015800000,
+   "o": 45.11,
+   "h": 45.11,
+   "l": 44.95,
+   "c": 44.95,
+   "v": 2.0,
+   "complete": 0,
+   "bar": {
+    "bv": 1.0,
+    "sv": 1.0,
+    "tv": 2.0,
+    "d": 0.0
+   },
+   "poc": 44.94,
+   "vah": 45.1,
+   "val": 44.94,
+   "tpr": 1,
+   "mintick": 0.01,
+   "nrows": 2,
+   "sent": 2,
+   "rows": [
+    {
+     "dn": 44.94,
+     "up": 44.95,
+     "bv": 0.0,
+     "sv": 1.0,
+     "d": -1.0,
+     "tv": 1.0,
+     "bi": 0,
+     "si": 0
+    },
+    {
+     "dn": 45.1,
+     "up": 45.11,
+     "bv": 1.0,
+     "sv": 0.0,
+     "d": 1.0,
+     "tv": 1.0,
+     "bi": 0,
+     "si": 0
+    }
+   ],
+   "missing_5m": [
+    1786016400000
    ]
   }
  ]
