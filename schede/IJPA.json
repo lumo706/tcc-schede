@@ -2,7 +2,7 @@
   "schema_version": "1.2",
   "ticker": "IJPA",
   "stamp": {
-    "timestamp_fetch": "2026-08-05T17:10:13+02:00",
+    "timestamp_fetch": "2026-08-06T09:31:08+02:00",
     "data_type": "n/d",
     "lag_stimato_min": 20,
     "usage_layer": "context",
@@ -13,20 +13,20 @@
     "conId": 80268543,
     "exchange": "AEB",
     "currency": "EUR",
-    "spot": 71.4,
-    "open": null,
-    "high": 71.89,
-    "low": 71.06,
-    "prior_close": 70.46,
-    "volume": 44392.0,
-    "change_pct": 1.33,
+    "spot": 71.46,
+    "open": 71.46,
+    "high": 71.51,
+    "low": 71.22,
+    "prior_close": 71.3,
+    "volume": 3558.0,
+    "change_pct": 0.22,
     "iv_underlying": null,
-    "hv": 0.21,
+    "hv": 0.212,
     "iv_rank_52w": null,
     "iv_percentile_52w": null,
     "week52_high": 72.85,
-    "week52_low": 53.815,
-    "avg_volume_20d": 13621,
+    "week52_low": 55.18,
+    "avg_volume_20d": 14788,
     "vwap": null,
     "vwap_source": null,
     "vwap_method": "VWAP typical-price barre 1m IJPA.MI sessione corrente",
@@ -70,33 +70,6 @@
     "published_window": "ATM±8 strike (per rango, simmetrica)"
   },
   "ohlcv": [
-    {
-      "date": "2026-07-20",
-      "o": 68.3,
-      "h": 69.03,
-      "l": 68.2,
-      "c": 68.79,
-      "v": 12026.0,
-      "source": "lake"
-    },
-    {
-      "date": "2026-07-21",
-      "o": 69.69,
-      "h": 70.12,
-      "l": 69.33,
-      "c": 70.12,
-      "v": 17949.0,
-      "source": "lake"
-    },
-    {
-      "date": "2026-07-22",
-      "o": 69.73,
-      "h": 69.87,
-      "l": 69.4,
-      "c": 69.7,
-      "v": 6212.0,
-      "source": "lake"
-    },
     {
       "date": "2026-07-23",
       "o": 69.77,
@@ -159,6 +132,43 @@
       "c": 69.11,
       "v": 8849.0,
       "source": "lake"
+    },
+    {
+      "date": "2026-08-03",
+      "o": 70.1,
+      "h": 70.32,
+      "l": 69.03,
+      "c": 69.6,
+      "v": 41207.0,
+      "source": "lake"
+    },
+    {
+      "date": "2026-08-04",
+      "o": 69.96,
+      "h": 70.46,
+      "l": 69.53,
+      "c": 70.46,
+      "v": 2035.0,
+      "source": "lake"
+    },
+    {
+      "date": "2026-08-05",
+      "o": 71.14,
+      "h": 71.875,
+      "l": 71.06,
+      "c": 71.3,
+      "v": 8926.0,
+      "source": "lake"
+    },
+    {
+      "date": "2026-08-06",
+      "o": 71.46,
+      "h": 71.51,
+      "l": 71.22,
+      "c": 71.46,
+      "v": 3558.0,
+      "source": "tws",
+      "partial": true
     }
   ],
   "integrity": {
@@ -190,8 +200,8 @@
       "options[]:delta",
       "options[]:open_interest"
     ],
-    "checksum": "5d9b6eb8fe38b2ed95e4aa1ac6a153ca15d4da6ebfb4eedc383cf5bbbe998ab1",
-    "generated_at": "2026-08-05T17:10:13+02:00",
+    "checksum": "4b403c3fc40516157830937b182549ef4a76c9ac04e230eb8e7b922f4167fab0",
+    "generated_at": "2026-08-06T09:31:08+02:00",
     "generator": "TCC scheda_ticker v0.3",
     "last_commit": {
       "author": null,

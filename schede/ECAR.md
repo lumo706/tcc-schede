@@ -1,7 +1,7 @@
-# Scheda ECAR — 2026-08-05T17:20:42+02:00
+# Scheda ECAR — 2026-08-06T09:31:21+02:00
 **Dati:** n/d · lag 20m · uso: **context** · lake: **ready**
-**ECAR** (LSEETF, USD) · spot **12.742** · O 12.878 H 12.882 L 12.698 · prior 12.752 · vol 95236.0
-**IV None** (rank — (missing) / pct — (missing)) · HV 0.298 · IV-HV +Nonept · vol 95236.0 vs avg20 47003 (2.03x) · 52w 6.993–13.314 (spot 91% del range)
+**ECAR** (LSEETF, USD) · spot **12.616** · O 12.638 H 12.638 L 12.606 · prior 12.721 · vol 1148.0
+**IV None** (rank — (missing) / pct — (missing)) · HV 0.299 · IV-HV +Nonept · vol 1148.0 vs avg20 54647 (0.02x) · 52w 7.044–13.314 (spot 89% del range)
 **VWAP — (missing)** · **POC — (missing)** · OI call None put None (P/C None)
 
 Catena `None` · tradingClass `None` · mult `None`
@@ -12,13 +12,13 @@ Catena `None` · tradingClass `None` · mult `None`
 **Ultime candele daily**
 | data | O | H | L | C | volume | src |
 |---|---|---|---|---|---|---|
-| 2026-07-23 | 13.052 | 13.102 | 12.698 | 12.705 | 31388.0 | lake |
-| 2026-07-24 | 12.658 | 12.758 | 12.504 | 12.61 | 112378.0 | lake |
-| 2026-07-27 | 12.71 | 12.75 | 12.304 | 12.339 | 47686.0 | lake |
 | 2026-07-28 | 12.218 | 12.234 | 12.046 | 12.216 | 43199.0 | lake |
 | 2026-07-29 | 12.196 | 12.24 | 11.964 | 11.972 | 74385.0 | lake |
 | 2026-07-30 | 11.882 | 12.34 | 11.846 | 12.244 | 35937.0 | lake |
 | 2026-07-31 | 12.49 | 12.536 | 12.16 | 12.218 | 30618.0 | lake |
-| 2026-08-05 | 12.878 | 12.882 | 12.698 | 12.742 | 95236.0 | tws · oggi (parziale) |
+| 2026-08-03 | 12.456 | 12.482 | 12.208 | 12.355 | 97835.0 | lake |
+| 2026-08-04 | 12.418 | 12.752 | 12.418 | 12.752 | 66119.0 | lake |
+| 2026-08-05 | 12.878 | 12.882 | 12.698 | 12.721 | 99578.0 | lake |
+| 2026-08-06 | 12.638 | 12.638 | 12.606 | 12.616 | 1148.0 | tws · oggi (parziale) |
 
-`sha256:ad8181229c5a6026…` · TCC scheda_ticker v0.3
+`sha256:a6d6d46dcfa0d663…` · TCC scheda_ticker v0.3

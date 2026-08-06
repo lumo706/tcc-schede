@@ -1,7 +1,7 @@
-# Scheda XLKS — 2026-08-05T17:20:45+02:00
+# Scheda XLKS — 2026-08-06T09:31:35+02:00
 **Dati:** n/d · lag 20m · uso: **context** · lake: **ready**
-**XLKS** (LSEETF, USD) · spot **1062.4** · O 1066.6 H 1069.0 L 1059.8 · prior 1052.4 · vol 936.0
-**IV None** (rank — (missing) / pct — (missing)) · HV 0.247 · IV-HV +Nonept · vol 936.0 vs avg20 1506 (0.62x) · 52w 752.7–1112.8 (spot 86% del range)
+**XLKS** (LSEETF, USD) · spot **1058.0** · O 1056.0 H 1058.0 L 1056.0 · prior 1062.4 · vol 83.0
+**IV None** (rank — (missing) / pct — (missing)) · HV 0.249 · IV-HV +Nonept · vol 83.0 vs avg20 1969 (0.04x) · 52w 752.7–1112.8 (spot 85% del range)
 **VWAP — (missing)** · **POC — (missing)** · OI call None put None (P/C None)
 
 Catena `None` · tradingClass `None` · mult `None`
@@ -12,13 +12,13 @@ Catena `None` · tradingClass `None` · mult `None`
 **Ultime candele daily**
 | data | O | H | L | C | volume | src |
 |---|---|---|---|---|---|---|
-| 2026-07-23 | 1021.0 | 1025.0 | 1004.5 | 1004.5 | 716.0 | lake |
-| 2026-07-24 | 1006.8 | 1014.0 | 1000.8 | 1009.4 | 856.0 | lake |
-| 2026-07-27 | 1016.4 | 1018.6 | 986.3 | 986.3 | 772.0 | lake |
 | 2026-07-28 | 985.5 | 986.0 | 965.0 | 981.8 | 2265.0 | lake |
 | 2026-07-29 | 981.6 | 985.3 | 967.1 | 967.1 | 1136.0 | lake |
 | 2026-07-30 | 967.4 | 1004.0 | 966.0 | 997.65 | 1908.0 | lake |
 | 2026-07-31 | 999.8 | 1010.6 | 985.0 | 989.3 | 3503.0 | lake |
-| 2026-08-05 | 1066.6 | 1069.0 | 1059.8 | 1062.4 | 936.0 | tws · oggi (parziale) |
+| 2026-08-03 | 1008.6 | 1012.8 | 993.2 | 1011.4 | 7439.0 | lake |
+| 2026-08-04 | 1024.4 | 1052.4 | 1024.4 | 1052.4 | 7132.0 | lake |
+| 2026-08-05 | 1066.6 | 1069.0 | 1059.8 | 1062.4 | 1096.0 | lake |
+| 2026-08-06 | 1056.0 | 1058.0 | 1056.0 | 1058.0 | 83.0 | tws · oggi (parziale) |
 
-`sha256:8f3e67340c667f2b…` · TCC scheda_ticker v0.3
+`sha256:713fd7d9e0edf161…` · TCC scheda_ticker v0.3

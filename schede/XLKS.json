@@ -2,7 +2,7 @@
   "schema_version": "1.2",
   "ticker": "XLKS",
   "stamp": {
-    "timestamp_fetch": "2026-08-05T17:20:45+02:00",
+    "timestamp_fetch": "2026-08-06T09:31:35+02:00",
     "data_type": "n/d",
     "lag_stimato_min": 20,
     "usage_layer": "context",
@@ -13,20 +13,20 @@
     "conId": 78999737,
     "exchange": "LSEETF",
     "currency": "USD",
-    "spot": 1062.4,
-    "open": 1066.6,
-    "high": 1069.0,
-    "low": 1059.8,
-    "prior_close": 1052.4,
-    "volume": 936.0,
-    "change_pct": 0.95,
+    "spot": 1058.0,
+    "open": 1056.0,
+    "high": 1058.0,
+    "low": 1056.0,
+    "prior_close": 1062.4,
+    "volume": 83.0,
+    "change_pct": -0.41,
     "iv_underlying": null,
-    "hv": 0.247,
+    "hv": 0.249,
     "iv_rank_52w": null,
     "iv_percentile_52w": null,
     "week52_high": 1112.8,
     "week52_low": 752.7,
-    "avg_volume_20d": 1506,
+    "avg_volume_20d": 1969,
     "vwap": null,
     "vwap_source": null,
     "vwap_method": "VWAP typical-price barre 1m XLKS sessione corrente",
@@ -70,33 +70,6 @@
     "published_window": "ATM±8 strike (per rango, simmetrica)"
   },
   "ohlcv": [
-    {
-      "date": "2026-07-20",
-      "o": 999.1,
-      "h": 1009.6,
-      "l": 999.1,
-      "c": 1004.3,
-      "v": 1122.0,
-      "source": "lake"
-    },
-    {
-      "date": "2026-07-21",
-      "o": 1010.2,
-      "h": 1020.4,
-      "l": 1010.2,
-      "c": 1020.4,
-      "v": 287.0,
-      "source": "lake"
-    },
-    {
-      "date": "2026-07-22",
-      "o": 1012.6,
-      "h": 1024.6,
-      "l": 1008.6,
-      "c": 1024.2,
-      "v": 1468.0,
-      "source": "lake"
-    },
     {
       "date": "2026-07-23",
       "o": 1021.0,
@@ -161,12 +134,39 @@
       "source": "lake"
     },
     {
+      "date": "2026-08-03",
+      "o": 1008.6,
+      "h": 1012.8,
+      "l": 993.2,
+      "c": 1011.4,
+      "v": 7439.0,
+      "source": "lake"
+    },
+    {
+      "date": "2026-08-04",
+      "o": 1024.4,
+      "h": 1052.4,
+      "l": 1024.4,
+      "c": 1052.4,
+      "v": 7132.0,
+      "source": "lake"
+    },
+    {
       "date": "2026-08-05",
       "o": 1066.6,
       "h": 1069.0,
       "l": 1059.8,
       "c": 1062.4,
-      "v": 936.0,
+      "v": 1096.0,
+      "source": "lake"
+    },
+    {
+      "date": "2026-08-06",
+      "o": 1056.0,
+      "h": 1058.0,
+      "l": 1056.0,
+      "c": 1058.0,
+      "v": 83.0,
       "source": "tws",
       "partial": true
     }
@@ -200,8 +200,8 @@
       "options[]:delta",
       "options[]:open_interest"
     ],
-    "checksum": "8f3e67340c667f2bfcf971694bef082726c621bb073120b614adb964cf983e1d",
-    "generated_at": "2026-08-05T17:20:45+02:00",
+    "checksum": "713fd7d9e0edf16170415a0cb47b22f904096e5d1e480b46ed3fd17566896ad7",
+    "generated_at": "2026-08-06T09:31:35+02:00",
     "generator": "TCC scheda_ticker v0.3",
     "last_commit": {
       "author": null,
