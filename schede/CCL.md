@@ -1,30 +1,56 @@
-# Scheda CCL — 2026-08-07T19:42:33+02:00
+# Scheda CCL — 2026-08-07T21:31:58+02:00
 **Dati:** 🟡 delayed (15-20m) · lag 20m · uso: **context** · lake: **ready**
-**CCL** (NYSE, USD) · spot **28.67** · O 28.89 H 29.27 L 28.32 · prior 28.64 · vol 55766.0
-**IV 0.404** (rank 22.8 / pct 16.7) · HV 0.417 · IV-HV -1.3pt · vol 55766.0 vs avg20 2676051 (0.02x) · 52w 23.45–34.03 (spot 49% del range)
-**VWAP 28.593** · **POC 28.687** · OI call 422054.0 put 562508.0 (P/C 1.333)
+**CCL** (NYSE, USD) · spot **29.03** · O 28.89 H 29.27 L 28.32 · prior 28.64 · vol 80830.0
+**IV 0.405** (rank 22.9 / pct 17.1) · HV 0.417 · IV-HV -1.2pt · vol 80830.0 vs avg20 2676051 (0.03x) · 52w 23.45–34.03 (spot 53% del range)
+**VWAP 28.678** · **POC 28.686** · OI call 422054.0 put 562508.0 (P/C 1.333)
 
 Catena `CBOE` · tradingClass `CCL` · mult `100`
 
 | scad | strike | tipo | bid | ask | mid | IV | IV(bs) | Δ | Γ | vega | theta | OI | vol | ⚠ |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 20260807 | 24.5 | P | None | None | None | None | None | None | None | None | None | None | None |  |
-| 20260807 | 25.5 | P | None | None | None | None | None | None | None | None | None | None | None |  |
-| 20260807 | 26.5 | P | None | None | None | None | None | None | None | None | None | None | None |  |
-| 20260807 | 27.5 | P | None | None | None | None | None | None | None | None | None | None | None |  |
-| 20260807 | 28.5 | P | None | None | None | None | None | None | None | None | None | None | None |  |
-| 20260807 | 29.5 | C | None | None | None | None | None | None | None | None | None | None | None |  |
-| 20260807 | 30.5 | C | None | None | None | None | None | None | None | None | None | None | None |  |
-| 20260807 | 31.5 | C | None | None | None | None | None | None | None | None | None | None | None |  |
-| 20260814 | 24.5 | P | None | None | None | None | None | None | None | None | None | None | None |  |
-| 20260814 | 25.5 | P | None | None | None | None | None | None | None | None | None | None | None |  |
-| 20260814 | 26.5 | P | None | None | None | None | None | None | None | None | None | None | None |  |
-| 20260814 | 27.5 | P | None | None | None | None | None | None | None | None | None | None | None |  |
-| 20260814 | 28.5 | P | None | None | None | None | None | None | None | None | None | None | None |  |
-| 20260814 | 29.5 | C | None | None | None | None | None | None | None | None | None | None | None |  |
-| 20260814 | 30.5 | C | None | None | None | None | None | None | None | None | None | None | None |  |
-| 20260814 | 31.5 | C | None | None | None | None | None | None | None | None | None | None | None |  |
-| 20260814 | 32.5 | C | None | None | None | None | None | None | None | None | None | None | None |  |
+| 20260807 | 25 | P | None | 0.21 | None | 0.685 | None | 0.0 | None | None | None | 389.0 | 0.0 |  |
+| 20260807 | 26 | P | None | 0.35 | None | None | None | None | None | None | None | 1408.0 | 79.0 |  |
+| 20260807 | 27 | P | None | 0.23 | None | None | None | None | None | None | None | 1152.0 | 16.0 |  |
+| 20260807 | 28 | P | None | 0.21 | None | None | None | None | None | None | None | 1612.0 | 255.0 |  |
+| 20260807 | 29 | P | None | 0.12 | None | None | None | None | None | None | None | 3675.0 | 314.0 |  |
+| 20260807 | 30 | C | None | 0.21 | None | None | None | None | None | None | None | 2400.0 | 270.0 |  |
+| 20260807 | 31 | C | None | 0.4 | None | None | None | None | None | None | None | 3040.0 | 71.0 |  |
+| 20260807 | 32 | C | None | 0.08 | None | None | None | None | None | None | None | 249.0 | 10.0 |  |
+| 20260807 | 33 | C | None | 0.27 | None | None | None | None | None | None | None | 80.0 | 0.0 |  |
+| 20260814 | 25 | C | None | None | 4.043 | 0.503 | None | 0.99 | 0.014 | 0.001 | -0.005 | None | None |  |
+| 20260814 | 25 | P | None | 0.04 | None | 0.503 | None | -0.01 | 0.014 | 0.001 | -0.004 | 1572.0 | 65.0 |  |
+| 20260814 | 25.5 | C | None | None | 3.552 | 0.503 | None | 0.979 | 0.027 | 0.002 | -0.009 | None | None |  |
+| 20260814 | 25.5 | P | None | None | 0.015 | 0.503 | None | -0.021 | 0.027 | 0.002 | -0.008 | None | None |  |
+| 20260814 | 26 | C | None | None | 3.07 | 0.503 | None | 0.958 | 0.047 | 0.003 | -0.015 | None | None |  |
+| 20260814 | 26 | P | None | 0.1 | None | None | None | -0.048 | 0.051 | 0.004 | -0.016 | 493.0 | 53.0 |  |
+| 20260814 | 26.5 | C | None | None | 2.603 | 0.503 | None | 0.925 | 0.075 | 0.005 | -0.023 | None | None |  |
+| 20260814 | 26.5 | P | None | None | 0.065 | 0.503 | None | -0.075 | 0.075 | 0.005 | -0.022 | None | None |  |
+| 20260814 | 27 | C | None | None | 2.158 | 0.503 | None | 0.875 | 0.109 | 0.008 | -0.033 | None | None |  |
+| 20260814 | 27 | P | 0.06 | 0.08 | 0.07 | None | None | -0.091 | 0.101 | 0.006 | -0.022 | 354.0 | 74.0 |  |
+| 20260814 | 27.5 | C | None | None | 1.745 | 0.503 | None | 0.807 | 0.145 | 0.01 | -0.043 | None | None |  |
+| 20260814 | 27.5 | P | None | None | 0.207 | 0.503 | None | -0.192 | 0.145 | 0.01 | -0.042 | None | None |  |
+| 20260814 | 28 | C | None | None | 1.372 | 0.503 | None | 0.723 | 0.177 | 0.013 | -0.053 | None | None |  |
+| 20260814 | 28 | P | 0.22 | 0.28 | 0.25 | None | None | -0.249 | 0.194 | 0.012 | -0.042 | 327.0 | 136.0 |  |
+| 20260814 | 28.5 | C | None | None | 1.046 | 0.503 | None | 0.626 | 0.201 | 0.014 | -0.059 | None | None |  |
+| 20260814 | 28.5 | P | None | None | 0.507 | 0.503 | None | -0.374 | 0.201 | 0.014 | -0.058 | None | None |  |
+| 20260814 | 29 | C | None | None | 0.772 | 0.503 | None | 0.521 | 0.211 | 0.015 | -0.062 | None | None |  |
+| 20260814 | 29 | P | 0.58 | 0.64 | 0.61 | None | None | -0.479 | 0.252 | 0.015 | -0.051 | 201.0 | 206.0 |  |
+| 20260814 | 29.5 | C | None | None | 0.551 | 0.503 | None | 0.417 | 0.207 | 0.015 | -0.061 | None | None |  |
+| 20260814 | 29.5 | P | None | None | 1.011 | 0.503 | None | -0.583 | 0.207 | 0.015 | -0.059 | None | None |  |
+| 20260814 | 30 | C | 0.27 | 0.32 | 0.295 | None | None | 0.293 | 0.209 | 0.013 | -0.047 | 2839.0 | 341.0 |  |
+| 20260814 | 30 | P | None | None | 1.339 | 0.503 | None | -0.68 | 0.189 | 0.013 | -0.054 | None | None |  |
+| 20260814 | 30.5 | C | None | None | 0.252 | 0.503 | None | 0.235 | 0.163 | 0.011 | -0.048 | None | None |  |
+| 20260814 | 30.5 | P | None | None | 1.711 | 0.503 | None | -0.765 | 0.163 | 0.011 | -0.046 | None | None |  |
+| 20260814 | 31 | C | 0.06 | 0.13 | 0.095 | None | None | 0.123 | 0.127 | 0.008 | -0.027 | 483.0 | 144.0 |  |
+| 20260814 | 31 | P | None | None | 2.12 | 0.503 | None | -0.834 | 0.132 | 0.009 | -0.037 | None | None |  |
+| 20260814 | 31.5 | C | None | None | 0.099 | 0.503 | None | 0.112 | 0.101 | 0.007 | -0.03 | None | None |  |
+| 20260814 | 31.5 | P | None | None | 2.558 | 0.503 | None | -0.888 | 0.101 | 0.007 | -0.028 | None | None |  |
+| 20260814 | 32 | C | 0.01 | 0.08 | 0.045 | None | None | 0.06 | 0.067 | 0.004 | -0.018 | 256.0 | 65.0 |  |
+| 20260814 | 32 | P | None | None | 3.018 | 0.503 | None | -0.927 | 0.073 | 0.005 | -0.019 | None | None |  |
+| 20260814 | 32.5 | C | None | None | 0.034 | 0.503 | None | 0.045 | 0.05 | 0.004 | -0.015 | None | None |  |
+| 20260814 | 32.5 | P | None | None | 3.492 | 0.503 | None | -0.955 | 0.05 | 0.004 | -0.013 | None | None |  |
+| 20260814 | 33 | C | None | 0.18 | None | None | None | None | None | None | None | 69.0 | 0.0 |  |
+| 20260814 | 33 | P | None | None | 3.977 | 0.503 | None | -0.973 | 0.033 | 0.002 | -0.008 | None | None |  |
 
 **Ultime candele daily**
 | data | O | H | L | C | volume | src |
@@ -36,6 +62,6 @@ Catena `CBOE` · tradingClass `CCL` · mult `100`
 | 2026-08-03 | 28.54 | 29.08 | 28.22 | 28.74 | 40150.0 | lake |
 | 2026-08-04 | 29.37 | 29.91 | 29.3 | 29.59 | 41938.0 | lake |
 | 2026-08-05 | 29.76 | 30.21 | 29.63 | 29.67 | 41643.0 | lake |
-| 2026-08-07 | 28.89 | 29.27 | 28.32 | 28.67 | 55766.0 | tws · oggi (parziale) |
+| 2026-08-07 | 28.89 | 29.27 | 28.32 | 29.03 | 80830.0 | tws · oggi (parziale) |
 
-`sha256:c8d3b5eadca5744b…` · TCC scheda_ticker v0.3
+`sha256:f8dd62e14e34923b…` · TCC scheda_ticker v0.3
