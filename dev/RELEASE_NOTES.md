@@ -5,6 +5,24 @@
 
 ---
 
+## 2026-08-08 · 21:05 CEST — Punto di chiusura sessione + mappa architetturale
+
+**Footprint: CONCLUSO.** I pezzi ancora aperti sono stati rimandati → Roadmap, con un prompt di test dedicato per lunedì. La sessione footprint/scheda parallela non è più attiva: l'hazard multi-sessione rientra, perché i prossimi lavori procedono **in sequenza**, non in parallelo.
+
+**Fatto in questa sessione:**
+- Prompt 0 completato al suo gate (regole di autonomia in `CLAUDE.md`; questo canale di sync creato).
+- **Mappa architetturale TCC dei 3 flussi** (cyber / TCC-refine / footprint): unico file conteso = `bridge.py` (percorso ordini), e lì in 3 funzioni distinte — costruttore contratto (#35, TCC-refine), guardia whitelist (cyber), ingest footprint (DIFF-ZERO sulle righe ordini). **Interferenza cyber ↔ TCC-refine: minima.** Tutti gli altri file hanno un solo proprietario.
+
+**Sequenza concordata (Luigi):** 1) parti finali di **TCC-refine** → 2) a seguire **cyber** (che preleva i propri commit, senza assorbire il branch). Sequenziale = niente collisioni di commit.
+
+**Ancora aperto (non bloccante):**
+- Commit misto footprint+TCC-refine sul branch di remediation: **splittabile per file** (i flussi sono disgiunti tranne `bridge.py`), si scioglie da sé col consolidamento di TCC-refine. Fino ad allora: nessun merge/deploy dell'intero branch.
+- Percorso ordini **#35** da validare su paper (un fix per volta) prima di ogni deploy.
+
+**Prossimo passo:** Luigi avvia le parti finali di TCC-refine (prompt separato).
+
+---
+
 ## 2026-08-08 · 17:19 CEST — Prompt 0 «Operatività agente»
 
 **Prompt in esecuzione:** Prompt 0 — autonomia persistente dell'agente + chiusura sessioni appese + creazione di questo canale di sync.
