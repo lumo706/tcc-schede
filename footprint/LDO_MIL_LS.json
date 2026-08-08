@@ -1,11 +1,11 @@
 {
  "sym": "MIL_LS:LDO",
  "tf": "15",
- "schema_version": "fp-1.1",
+ "schema_version": "fp-1.2",
  "n_candles": 20,
  "t_from": 1786099500000,
  "t_to": 1786116600000,
- "note": "candles=footprint 15m (aggregate); recent_5m=ultime 2 candele 5m base (fasi delicate inizio/fine sessione). rows=profilo per livello: dn/up=banda prezzo (up=dn+tpr*mintick), bv/sv=volume aggressivo buy/sell, d=bv-sv, tv=bv+sv, bi/si=imbalance(1/0). tpr=1 → tick-level.",
+ "note": "candles=footprint 15m (aggregate); recent_5m=ultime 2 candele 5m base (fasi delicate inizio/fine sessione); iv_pc=serie IV/PC opzioni del ticker (iv.underlying=trend ~30d tick TWS; iv.atm=ATM scadenza operativa; skew_rr_25d; pc volume/OI). rows=profilo per livello: dn/up=banda prezzo (up=dn+tpr*mintick), bv/sv=volume aggressivo buy/sell, d=bv-sv, tv=bv+sv, bi/si=imbalance(1/0). tpr=1 → tick-level.",
  "candles": [
   {
    "t": 1786099500000,
@@ -4171,5 +4171,957 @@
     }
    ]
   }
- ]
+ ],
+ "iv_pc": {
+  "last": {
+   "ts": "2026-07-15T16:12:48+02:00",
+   "spot": 50.41,
+   "iv": {
+    "underlying": {
+     "value": 0.476,
+     "tenor_days": 30,
+     "source": "tws_underlying_iv"
+    },
+    "atm": {
+     "value": 0.4895,
+     "strike": 50.0,
+     "expiry": "2026-08-20",
+     "dte": 36,
+     "source": "bs_derived"
+    },
+    "skew_rr_25d": {
+     "value": 0.033,
+     "put_iv": 0.507,
+     "call_iv": 0.474,
+     "put_strike": 46.0,
+     "call_strike": 56.0,
+     "expiry": "2026-08-20",
+     "dte": 36,
+     "method": "delta_bs"
+    }
+   },
+   "pc": {
+    "volume": {
+     "ratio": 8.167,
+     "put_vol": 98.0,
+     "call_vol": 12.0,
+     "expiry_basis": "front",
+     "expiry": "2026-08-20",
+     "dte": 36
+    },
+    "open_interest": {
+     "ratio": 1.149,
+     "put_oi": 1927.0,
+     "call_oi": 1677.0,
+     "expiry_basis": "all",
+     "expiries": [
+      "2026-07-16",
+      "2026-08-20"
+     ]
+    }
+   }
+  },
+  "series": [
+   {
+    "ts": "2026-07-15T14:19:21+02:00",
+    "spot": 50.33,
+    "iv": {
+     "underlying": {
+      "value": 0.478,
+      "tenor_days": 30,
+      "source": "tws_underlying_iv"
+     },
+     "atm": {
+      "value": 0.4775,
+      "strike": 50.0,
+      "expiry": "2026-08-20",
+      "dte": 36,
+      "source": "chain_iv"
+     },
+     "skew_rr_25d": {
+      "value": 0.047,
+      "put_iv": 0.508,
+      "call_iv": 0.461,
+      "put_strike": 46.0,
+      "call_strike": 56.0,
+      "expiry": "2026-08-20",
+      "dte": 36,
+      "method": "delta_bs"
+     }
+    },
+    "pc": {
+     "volume": {
+      "ratio": 0.75,
+      "put_vol": 3.0,
+      "call_vol": 4.0,
+      "expiry_basis": "front",
+      "expiry": "2026-08-20",
+      "dte": 36
+     },
+     "open_interest": {
+      "ratio": 0.921,
+      "put_oi": 1097.0,
+      "call_oi": 1191.0,
+      "expiry_basis": "all",
+      "expiries": [
+       "2026-07-16",
+       "2026-08-20"
+      ]
+     }
+    }
+   },
+   {
+    "ts": "2026-07-15T14:25:01+02:00",
+    "spot": 50.335,
+    "iv": {
+     "underlying": {
+      "value": 0.479,
+      "tenor_days": 30,
+      "source": "tws_underlying_iv"
+     },
+     "atm": {
+      "value": 0.479,
+      "strike": 50.0,
+      "expiry": "2026-08-20",
+      "dte": 36,
+      "source": "chain_iv"
+     },
+     "skew_rr_25d": {
+      "value": 0.037,
+      "put_iv": 0.499,
+      "call_iv": 0.462,
+      "put_strike": 46.0,
+      "call_strike": 54.0,
+      "expiry": "2026-08-20",
+      "dte": 36,
+      "method": "delta_bs"
+     }
+    },
+    "pc": {
+     "volume": {
+      "ratio": 0.75,
+      "put_vol": 3.0,
+      "call_vol": 4.0,
+      "expiry_basis": "front",
+      "expiry": "2026-08-20",
+      "dte": 36
+     },
+     "open_interest": {
+      "ratio": 0.861,
+      "put_oi": 1032.0,
+      "call_oi": 1199.0,
+      "expiry_basis": "all",
+      "expiries": [
+       "2026-07-16",
+       "2026-08-20"
+      ]
+     }
+    }
+   },
+   {
+    "ts": "2026-07-15T14:30:35+02:00",
+    "spot": 50.32,
+    "iv": {
+     "underlying": {
+      "value": 0.479,
+      "tenor_days": 30,
+      "source": "tws_underlying_iv"
+     },
+     "atm": null,
+     "skew_rr_25d": {
+      "value": 0.037,
+      "put_iv": 0.499,
+      "call_iv": 0.462,
+      "put_strike": 46.0,
+      "call_strike": 54.0,
+      "expiry": "2026-08-20",
+      "dte": 36,
+      "method": "delta_bs"
+     }
+    },
+    "pc": {
+     "volume": {
+      "ratio": 0.75,
+      "put_vol": 3.0,
+      "call_vol": 4.0,
+      "expiry_basis": "front",
+      "expiry": "2026-08-20",
+      "dte": 36
+     },
+     "open_interest": {
+      "ratio": 1.16,
+      "put_oi": 1945.0,
+      "call_oi": 1677.0,
+      "expiry_basis": "all",
+      "expiries": [
+       "2026-07-16",
+       "2026-08-20"
+      ]
+     }
+    }
+   },
+   {
+    "ts": "2026-07-15T14:36:06+02:00",
+    "spot": 50.315,
+    "iv": {
+     "underlying": {
+      "value": 0.478,
+      "tenor_days": 30,
+      "source": "tws_underlying_iv"
+     },
+     "atm": null,
+     "skew_rr_25d": {
+      "value": 0.037,
+      "put_iv": 0.499,
+      "call_iv": 0.462,
+      "put_strike": 46.0,
+      "call_strike": 54.0,
+      "expiry": "2026-08-20",
+      "dte": 36,
+      "method": "delta_bs"
+     }
+    },
+    "pc": {
+     "volume": {
+      "ratio": 0.75,
+      "put_vol": 3.0,
+      "call_vol": 4.0,
+      "expiry_basis": "front",
+      "expiry": "2026-08-20",
+      "dte": 36
+     },
+     "open_interest": {
+      "ratio": 1.168,
+      "put_oi": 1945.0,
+      "call_oi": 1665.0,
+      "expiry_basis": "all",
+      "expiries": [
+       "2026-07-16",
+       "2026-08-20"
+      ]
+     }
+    }
+   },
+   {
+    "ts": "2026-07-15T14:41:39+02:00",
+    "spot": 50.36,
+    "iv": {
+     "underlying": {
+      "value": 0.479,
+      "tenor_days": 30,
+      "source": "tws_underlying_iv"
+     },
+     "atm": null,
+     "skew_rr_25d": {
+      "value": 0.047,
+      "put_iv": 0.509,
+      "call_iv": 0.462,
+      "put_strike": 46.0,
+      "call_strike": 54.0,
+      "expiry": "2026-08-20",
+      "dte": 36,
+      "method": "delta_bs"
+     }
+    },
+    "pc": {
+     "volume": {
+      "ratio": 0.75,
+      "put_vol": 3.0,
+      "call_vol": 4.0,
+      "expiry_basis": "front",
+      "expiry": "2026-08-20",
+      "dte": 36
+     },
+     "open_interest": {
+      "ratio": 1.142,
+      "put_oi": 1946.0,
+      "call_oi": 1704.0,
+      "expiry_basis": "all",
+      "expiries": [
+       "2026-07-16",
+       "2026-08-20"
+      ]
+     }
+    }
+   },
+   {
+    "ts": "2026-07-15T14:47:11+02:00",
+    "spot": 50.325,
+    "iv": {
+     "underlying": {
+      "value": 0.479,
+      "tenor_days": 30,
+      "source": "tws_underlying_iv"
+     },
+     "atm": {
+      "value": 0.4775,
+      "strike": 50.0,
+      "expiry": "2026-08-20",
+      "dte": 36,
+      "source": "chain_iv"
+     },
+     "skew_rr_25d": {
+      "value": 0.038,
+      "put_iv": 0.499,
+      "call_iv": 0.461,
+      "put_strike": 46.0,
+      "call_strike": 56.0,
+      "expiry": "2026-08-20",
+      "dte": 36,
+      "method": "delta_bs"
+     }
+    },
+    "pc": {
+     "volume": {
+      "ratio": 1.125,
+      "put_vol": 9.0,
+      "call_vol": 8.0,
+      "expiry_basis": "front",
+      "expiry": "2026-08-20",
+      "dte": 36
+     },
+     "open_interest": {
+      "ratio": 1.16,
+      "put_oi": 1945.0,
+      "call_oi": 1677.0,
+      "expiry_basis": "all",
+      "expiries": [
+       "2026-07-16",
+       "2026-08-20"
+      ]
+     }
+    }
+   },
+   {
+    "ts": "2026-07-15T14:52:44+02:00",
+    "spot": 50.295,
+    "iv": {
+     "underlying": {
+      "value": 0.478,
+      "tenor_days": 30,
+      "source": "tws_underlying_iv"
+     },
+     "atm": {
+      "value": 0.503,
+      "strike": 50.0,
+      "expiry": "2026-08-20",
+      "dte": 36,
+      "source": "option_midpoint_iv"
+     },
+     "skew_rr_25d": {
+      "value": 0.037,
+      "put_iv": 0.499,
+      "call_iv": 0.462,
+      "put_strike": 46.0,
+      "call_strike": 54.0,
+      "expiry": "2026-08-20",
+      "dte": 36,
+      "method": "delta_bs"
+     }
+    },
+    "pc": {
+     "volume": {
+      "ratio": 0.5,
+      "put_vol": 3.0,
+      "call_vol": 6.0,
+      "expiry_basis": "front",
+      "expiry": "2026-08-20",
+      "dte": 36
+     },
+     "open_interest": {
+      "ratio": 1.085,
+      "put_oi": 1821.0,
+      "call_oi": 1678.0,
+      "expiry_basis": "all",
+      "expiries": [
+       "2026-07-16",
+       "2026-08-20"
+      ]
+     }
+    }
+   },
+   {
+    "ts": "2026-07-15T14:58:26+02:00",
+    "spot": 50.3,
+    "iv": {
+     "underlying": {
+      "value": 0.479,
+      "tenor_days": 30,
+      "source": "tws_underlying_iv"
+     },
+     "atm": {
+      "value": 0.4775,
+      "strike": 50.0,
+      "expiry": "2026-08-20",
+      "dte": 36,
+      "source": "chain_iv"
+     },
+     "skew_rr_25d": {
+      "value": 0.038,
+      "put_iv": 0.499,
+      "call_iv": 0.461,
+      "put_strike": 46.0,
+      "call_strike": 56.0,
+      "expiry": "2026-08-20",
+      "dte": 36,
+      "method": "delta_bs"
+     }
+    },
+    "pc": {
+     "volume": {
+      "ratio": 0.833,
+      "put_vol": 5.0,
+      "call_vol": 6.0,
+      "expiry_basis": "front",
+      "expiry": "2026-08-20",
+      "dte": 36
+     },
+     "open_interest": {
+      "ratio": 1.179,
+      "put_oi": 1944.0,
+      "call_oi": 1649.0,
+      "expiry_basis": "all",
+      "expiries": [
+       "2026-07-16",
+       "2026-08-20"
+      ]
+     }
+    }
+   },
+   {
+    "ts": "2026-07-15T15:04:01+02:00",
+    "spot": 50.335,
+    "iv": {
+     "underlying": {
+      "value": 0.479,
+      "tenor_days": 30,
+      "source": "tws_underlying_iv"
+     },
+     "atm": {
+      "value": 0.489,
+      "strike": 50.0,
+      "expiry": "2026-08-20",
+      "dte": 36,
+      "source": "option_midpoint_iv"
+     },
+     "skew_rr_25d": {
+      "value": 0.043,
+      "put_iv": 0.505,
+      "call_iv": 0.462,
+      "put_strike": 46.0,
+      "call_strike": 54.0,
+      "expiry": "2026-08-20",
+      "dte": 36,
+      "method": "delta_bs"
+     }
+    },
+    "pc": {
+     "volume": {
+      "ratio": 1.125,
+      "put_vol": 9.0,
+      "call_vol": 8.0,
+      "expiry_basis": "front",
+      "expiry": "2026-08-20",
+      "dte": 36
+     },
+     "open_interest": {
+      "ratio": 1.155,
+      "put_oi": 1940.0,
+      "call_oi": 1680.0,
+      "expiry_basis": "all",
+      "expiries": [
+       "2026-07-16",
+       "2026-08-20"
+      ]
+     }
+    }
+   },
+   {
+    "ts": "2026-07-15T15:09:33+02:00",
+    "spot": 50.34,
+    "iv": {
+     "underlying": {
+      "value": 0.478,
+      "tenor_days": 30,
+      "source": "tws_underlying_iv"
+     },
+     "atm": null,
+     "skew_rr_25d": {
+      "value": 0.037,
+      "put_iv": 0.499,
+      "call_iv": 0.462,
+      "put_strike": 46.0,
+      "call_strike": 54.0,
+      "expiry": "2026-08-20",
+      "dte": 36,
+      "method": "delta_bs"
+     }
+    },
+    "pc": {
+     "volume": {
+      "ratio": 0.75,
+      "put_vol": 3.0,
+      "call_vol": 4.0,
+      "expiry_basis": "front",
+      "expiry": "2026-08-20",
+      "dte": 36
+     },
+     "open_interest": {
+      "ratio": 1.54,
+      "put_oi": 1929.0,
+      "call_oi": 1253.0,
+      "expiry_basis": "all",
+      "expiries": [
+       "2026-07-16",
+       "2026-08-20"
+      ]
+     }
+    }
+   },
+   {
+    "ts": "2026-07-15T15:15:06+02:00",
+    "spot": 50.285,
+    "iv": {
+     "underlying": {
+      "value": 0.479,
+      "tenor_days": 30,
+      "source": "tws_underlying_iv"
+     },
+     "atm": {
+      "value": 0.4775,
+      "strike": 50.0,
+      "expiry": "2026-08-20",
+      "dte": 36,
+      "source": "chain_iv"
+     },
+     "skew_rr_25d": {
+      "value": 0.038,
+      "put_iv": 0.499,
+      "call_iv": 0.461,
+      "put_strike": 46.0,
+      "call_strike": 56.0,
+      "expiry": "2026-08-20",
+      "dte": 36,
+      "method": "delta_bs"
+     }
+    },
+    "pc": {
+     "volume": {
+      "ratio": 0.75,
+      "put_vol": 3.0,
+      "call_vol": 4.0,
+      "expiry_basis": "front",
+      "expiry": "2026-08-20",
+      "dte": 36
+     },
+     "open_interest": {
+      "ratio": 1.168,
+      "put_oi": 1944.0,
+      "call_oi": 1665.0,
+      "expiry_basis": "all",
+      "expiries": [
+       "2026-07-16",
+       "2026-08-20"
+      ]
+     }
+    }
+   },
+   {
+    "ts": "2026-07-15T15:20:40+02:00",
+    "spot": 50.33,
+    "iv": {
+     "underlying": {
+      "value": 0.48,
+      "tenor_days": 30,
+      "source": "tws_underlying_iv"
+     },
+     "atm": null,
+     "skew_rr_25d": {
+      "value": 0.037,
+      "put_iv": 0.499,
+      "call_iv": 0.462,
+      "put_strike": 46.0,
+      "call_strike": 54.0,
+      "expiry": "2026-08-20",
+      "dte": 36,
+      "method": "delta_bs"
+     }
+    },
+    "pc": {
+     "volume": {
+      "ratio": 0.75,
+      "put_vol": 3.0,
+      "call_vol": 4.0,
+      "expiry_basis": "front",
+      "expiry": "2026-08-20",
+      "dte": 36
+     },
+     "open_interest": {
+      "ratio": 1.159,
+      "put_oi": 1929.0,
+      "call_oi": 1665.0,
+      "expiry_basis": "all",
+      "expiries": [
+       "2026-07-16",
+       "2026-08-20"
+      ]
+     }
+    }
+   },
+   {
+    "ts": "2026-07-15T15:26:11+02:00",
+    "spot": 50.28,
+    "iv": {
+     "underlying": {
+      "value": 0.479,
+      "tenor_days": 30,
+      "source": "tws_underlying_iv"
+     },
+     "atm": {
+      "value": 0.4775,
+      "strike": 50.0,
+      "expiry": "2026-08-20",
+      "dte": 36,
+      "source": "chain_iv"
+     },
+     "skew_rr_25d": {
+      "value": 0.038,
+      "put_iv": 0.499,
+      "call_iv": 0.461,
+      "put_strike": 46.0,
+      "call_strike": 56.0,
+      "expiry": "2026-08-20",
+      "dte": 36,
+      "method": "delta_bs"
+     }
+    },
+    "pc": {
+     "volume": {
+      "ratio": 0.75,
+      "put_vol": 3.0,
+      "call_vol": 4.0,
+      "expiry_basis": "front",
+      "expiry": "2026-08-20",
+      "dte": 36
+     },
+     "open_interest": {
+      "ratio": 1.168,
+      "put_oi": 1945.0,
+      "call_oi": 1665.0,
+      "expiry_basis": "all",
+      "expiries": [
+       "2026-07-16",
+       "2026-08-20"
+      ]
+     }
+    }
+   },
+   {
+    "ts": "2026-07-15T15:34:18+02:00",
+    "spot": 50.425,
+    "iv": {
+     "underlying": {
+      "value": 0.477,
+      "tenor_days": 30,
+      "source": "tws_underlying_iv"
+     },
+     "atm": null,
+     "skew_rr_25d": {
+      "value": 0.056,
+      "put_iv": 0.504,
+      "call_iv": 0.448,
+      "put_strike": 46.0,
+      "call_strike": 58.0,
+      "expiry": "2026-08-20",
+      "dte": 36,
+      "method": "delta_bs"
+     }
+    },
+    "pc": {
+     "volume": {
+      "ratio": 0.5,
+      "put_vol": 1.0,
+      "call_vol": 2.0,
+      "expiry_basis": "front",
+      "expiry": "2026-08-20",
+      "dte": 36
+     },
+     "open_interest": {
+      "ratio": 1.573,
+      "put_oi": 1905.0,
+      "call_oi": 1211.0,
+      "expiry_basis": "all",
+      "expiries": [
+       "2026-07-16",
+       "2026-08-20"
+      ]
+     }
+    }
+   },
+   {
+    "ts": "2026-07-15T15:40:47+02:00",
+    "spot": 50.34,
+    "iv": {
+     "underlying": {
+      "value": 0.479,
+      "tenor_days": 30,
+      "source": "tws_underlying_iv"
+     },
+     "atm": null,
+     "skew_rr_25d": {
+      "value": 0.043,
+      "put_iv": 0.505,
+      "call_iv": 0.462,
+      "put_strike": 46.0,
+      "call_strike": 54.0,
+      "expiry": "2026-08-20",
+      "dte": 36,
+      "method": "delta_bs"
+     }
+    },
+    "pc": {
+     "volume": {
+      "ratio": null,
+      "put_vol": 1.0,
+      "call_vol": 0.0
+     },
+     "open_interest": {
+      "ratio": 1.092,
+      "put_oi": 1831.0,
+      "call_oi": 1677.0,
+      "expiry_basis": "all",
+      "expiries": [
+       "2026-07-16",
+       "2026-08-20"
+      ]
+     }
+    }
+   },
+   {
+    "ts": "2026-07-15T15:47:14+02:00",
+    "spot": 50.385,
+    "iv": {
+     "underlying": {
+      "value": 0.475,
+      "tenor_days": 30,
+      "source": "tws_underlying_iv"
+     },
+     "atm": null,
+     "skew_rr_25d": {
+      "value": 0.039,
+      "put_iv": 0.496,
+      "call_iv": 0.457,
+      "put_strike": 46.0,
+      "call_strike": 54.0,
+      "expiry": "2026-08-20",
+      "dte": 36,
+      "method": "delta_bs"
+     }
+    },
+    "pc": {
+     "volume": {
+      "ratio": null,
+      "put_vol": 1.0,
+      "call_vol": 0.0
+     },
+     "open_interest": {
+      "ratio": 1.145,
+      "put_oi": 1921.0,
+      "call_oi": 1677.0,
+      "expiry_basis": "all",
+      "expiries": [
+       "2026-07-16",
+       "2026-08-20"
+      ]
+     }
+    }
+   },
+   {
+    "ts": "2026-07-15T15:53:11+02:00",
+    "spot": 50.41,
+    "iv": {
+     "underlying": {
+      "value": 0.478,
+      "tenor_days": 30,
+      "source": "tws_underlying_iv"
+     },
+     "atm": {
+      "value": 0.479,
+      "strike": 50.0,
+      "expiry": "2026-08-20",
+      "dte": 36,
+      "source": "chain_iv"
+     },
+     "skew_rr_25d": {
+      "value": 0.03,
+      "put_iv": 0.505,
+      "call_iv": 0.475,
+      "put_strike": 46.0,
+      "call_strike": 58.0,
+      "expiry": "2026-08-20",
+      "dte": 36,
+      "method": "delta_bs"
+     }
+    },
+    "pc": {
+     "volume": {
+      "ratio": 0.5,
+      "put_vol": 1.0,
+      "call_vol": 2.0,
+      "expiry_basis": "front",
+      "expiry": "2026-08-20",
+      "dte": 36
+     },
+     "open_interest": {
+      "ratio": 0.886,
+      "put_oi": 1110.0,
+      "call_oi": 1253.0,
+      "expiry_basis": "all",
+      "expiries": [
+       "2026-07-16",
+       "2026-08-20"
+      ]
+     }
+    }
+   },
+   {
+    "ts": "2026-07-15T15:59:18+02:00",
+    "spot": 50.415,
+    "iv": {
+     "underlying": {
+      "value": 0.476,
+      "tenor_days": 30,
+      "source": "tws_underlying_iv"
+     },
+     "atm": null,
+     "skew_rr_25d": {
+      "value": 0.056,
+      "put_iv": 0.507,
+      "call_iv": 0.451,
+      "put_strike": 46.0,
+      "call_strike": 58.0,
+      "expiry": "2026-08-20",
+      "dte": 36,
+      "method": "delta_bs"
+     }
+    },
+    "pc": {
+     "volume": {
+      "ratio": 0.0,
+      "put_vol": 0,
+      "call_vol": 2.0,
+      "expiry_basis": "front",
+      "expiry": "2026-08-20",
+      "dte": 36
+     },
+     "open_interest": {
+      "ratio": 0.903,
+      "put_oi": 1110.0,
+      "call_oi": 1229.0,
+      "expiry_basis": "all",
+      "expiries": [
+       "2026-07-16",
+       "2026-08-20"
+      ]
+     }
+    }
+   },
+   {
+    "ts": "2026-07-15T16:05:46+02:00",
+    "spot": 50.395,
+    "iv": {
+     "underlying": {
+      "value": 0.476,
+      "tenor_days": 30,
+      "source": "tws_underlying_iv"
+     },
+     "atm": {
+      "value": 0.4875,
+      "strike": 50.0,
+      "expiry": "2026-08-20",
+      "dte": 36,
+      "source": "option_midpoint_iv"
+     },
+     "skew_rr_25d": {
+      "value": 0.045,
+      "put_iv": 0.507,
+      "call_iv": 0.462,
+      "put_strike": 46.0,
+      "call_strike": 54.0,
+      "expiry": "2026-08-20",
+      "dte": 36,
+      "method": "delta_bs"
+     }
+    },
+    "pc": {
+     "volume": {
+      "ratio": 24.5,
+      "put_vol": 98.0,
+      "call_vol": 4.0,
+      "expiry_basis": "front",
+      "expiry": "2026-08-20",
+      "dte": 36
+     },
+     "open_interest": {
+      "ratio": 1.189,
+      "put_oi": 1919.0,
+      "call_oi": 1614.0,
+      "expiry_basis": "all",
+      "expiries": [
+       "2026-07-16",
+       "2026-08-20"
+      ]
+     }
+    }
+   },
+   {
+    "ts": "2026-07-15T16:12:48+02:00",
+    "spot": 50.41,
+    "iv": {
+     "underlying": {
+      "value": 0.476,
+      "tenor_days": 30,
+      "source": "tws_underlying_iv"
+     },
+     "atm": {
+      "value": 0.4895,
+      "strike": 50.0,
+      "expiry": "2026-08-20",
+      "dte": 36,
+      "source": "bs_derived"
+     },
+     "skew_rr_25d": {
+      "value": 0.033,
+      "put_iv": 0.507,
+      "call_iv": 0.474,
+      "put_strike": 46.0,
+      "call_strike": 56.0,
+      "expiry": "2026-08-20",
+      "dte": 36,
+      "method": "delta_bs"
+     }
+    },
+    "pc": {
+     "volume": {
+      "ratio": 8.167,
+      "put_vol": 98.0,
+      "call_vol": 12.0,
+      "expiry_basis": "front",
+      "expiry": "2026-08-20",
+      "dte": 36
+     },
+     "open_interest": {
+      "ratio": 1.149,
+      "put_oi": 1927.0,
+      "call_oi": 1677.0,
+      "expiry_basis": "all",
+      "expiries": [
+       "2026-07-16",
+       "2026-08-20"
+      ]
+     }
+    }
+   }
+  ]
+ }
 }

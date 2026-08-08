@@ -1,11 +1,11 @@
 {
  "sym": "OANDA:EURUSD",
  "tf": "15",
- "schema_version": "fp-1.1",
+ "schema_version": "fp-1.2",
  "n_candles": 20,
  "t_from": 1786118400000,
  "t_to": 1786135500000,
- "note": "candles=footprint 15m (aggregate); recent_5m=ultime 2 candele 5m base (fasi delicate inizio/fine sessione). rows=profilo per livello: dn/up=banda prezzo (up=dn+tpr*mintick), bv/sv=volume aggressivo buy/sell, d=bv-sv, tv=bv+sv, bi/si=imbalance(1/0). tpr=1 → tick-level.",
+ "note": "candles=footprint 15m (aggregate); recent_5m=ultime 2 candele 5m base (fasi delicate inizio/fine sessione); iv_pc=serie IV/PC opzioni del ticker (iv.underlying=trend ~30d tick TWS; iv.atm=ATM scadenza operativa; skew_rr_25d; pc volume/OI). rows=profilo per livello: dn/up=banda prezzo (up=dn+tpr*mintick), bv/sv=volume aggressivo buy/sell, d=bv-sv, tv=bv+sv, bi/si=imbalance(1/0). tpr=1 → tick-level.",
  "candles": [
   {
    "t": 1786118400000,
@@ -9567,5 +9567,6 @@
     }
    ]
   }
- ]
+ ],
+ "iv_pc": null
 }
